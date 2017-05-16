@@ -19,13 +19,21 @@ async def run():
             parse(text)
     print(1)
 
+async def fetch_url(session, url):
+    res = await session.get(url)
+    html = await res.text()
+    parse(html)
+
+
 def parse(html):
     doc = pq(html)
+    path = doc('.box').children()[3].text.strip()
     title = doc('.meipian-title').text()
-    print(doc('.text').text())
-    print()
-    for i in doc('.text').children():
-        print(i.text)
+    content = "\n".join([i.text for i in doc('.text').children()])
+    print(path)
+    print(title)
+    print(content)
+    pass
 
 
 def main():
