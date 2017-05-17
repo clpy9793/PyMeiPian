@@ -75,7 +75,7 @@ async def parse(html, category_name):
     '''解析文章页面, 提取相关数据'''
     doc = pq(html)
     title = doc('.meipian-title').text()
-    content = "\n".join([i.text or i.text_content() for i in doc('.text').children() if i.text or i.text_content()])
+    content = "".join([i.text or i.text_content() for i in doc('.text').children() if i.text or i.text_content() and i.tag != 'script'])
     print('分类', category_name)
     print('标题', title)
     print('内容', content)
