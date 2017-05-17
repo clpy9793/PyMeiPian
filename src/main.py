@@ -56,7 +56,7 @@ async def post(category_id, max_id, session):
     rst = json.loads(rst)
     max_id = None
     if rst['articles']:
-        max_id = max([i['id'] for i in rst['articles']])
+        max_id = min([i['id'] for i in rst['articles']])
         for i in rst['articles']:
             await fetch_url(session, i.get('article_id'), i.get('category_name'))
     return max_id
