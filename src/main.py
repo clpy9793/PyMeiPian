@@ -10,6 +10,8 @@ import random
 import json
 import asyncio
 import aiohttp
+import aiofiles
+from traceback import format_exc
 from pyquery import PyQuery as pq
 
 category_dict = {
@@ -31,10 +33,17 @@ async def start_category(category_id):
         text = await res.text(encoding='utf8')
         max_id = await get_max_category_id(text)
         while True:
-            n = await post(category_id, max_id, session)
-            max_id = n if n else (max_id - 20)
-            print('等待一会')
-            await asyncio.sleep(random.randint(1, 5))
+            try:
+                n = await post(category_id, max_id, session)
+            except Exception as e:
+                n = None
+                async with aiofiles.open("{0}_err.log".format(category_id), 'ab+') as f:
+                    await f.write("{0}{1}".format(max_id, e).encode('utf8'))
+            max_id = n if n else (int(max_id) - 20)
+            if max_id <= 0:
+                return
+            # print('等待一会')
+            # await asyncio.sleep(random.randint(1, 5))
 
 
 async def get_max_category_id(html):
@@ -51,7 +60,7 @@ async def post(category_id, max_id, session):
             "controller": "category", "action": "list"}
     data['max_id'] = str(max_id)
     data['category_id'] = str(category_id)
-    res = await session.post(url, data=json.dumps(data))
+    res = await session.post(url, data=json.dumps(data), headers={})
     rst = await res.text(encoding='utf8')
     rst = json.loads(rst)
     max_id = None
@@ -68,22 +77,31 @@ async def fetch_url(session, article_id, category_name):
     res = await session.get(url)
     html = await res.text(encoding='utf8')
     print('文章链接', url)
-    await parse(html, category_name)
+    await parse(html, article_id, category_name)
+    # await asyncio.sleep(random.randint(2, 3))
 
 
-async def parse(html, category_name):
+async def parse(html, article_id, category_name):
     '''解析文章页面, 提取相关数据'''
     doc = pq(html)
     title = doc('.meipian-title').text()
     content = "".join([i.text or i.text_content() for i in doc('.text').children() if i.text or i.text_content() and i.tag != 'script'])
-    print('分类', category_name)
-    print('标题', title)
-    print('内容', content)
+    # print('分类', category_name)
+    # print('标题', title)
+    # print('内容', content)
+    await save_to_file(article_id, category_name, title, content)
 
 
-async def save_to_file():
+async def save_to_file(article_id, category_name, title, content):
     '''存储'''
-    pass
+    # print(article_id, category_name, title, content)
+    # if os
+    if not os.path.exists(category_name):
+        os.mkdir(category_name)
+    path = os.path.join(category_name, article_id)
+    print('路径', path)
+    async with aiofiles.open(path, 'wb') as f:
+        await f.write(content.encode('utf8'))
 
 
 def main():
