@@ -1,0 +1,25 @@
+今天和朋友们分享一下新学的螃蟹馒头的制作。真的很感谢美篇的平台，可以图文并茂的和大家一起交流。并记录美好的瞬间。取新鲜的南瓜一枚。
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+将其削皮。最好把皮削干净，露出黄色的肉。我今天有点偷懒，留有绿色的皮，做出的馒头品相略差。将南瓜切成薄片。放入容器内，置于微波炉中高火五分钟，使其蒸熟。倒入料理机里打成泥。根据喜好趁热加入白糖。女儿愿吃甜品，所以，我放的糖较多。将酵母粉放入约四十度温水中溶化。将南瓜泥，面粉和酵母水一起和成面团。将和好的面放置约2小时。发好的面是以前面团的2倍大即可。按图做好螃蟹脚和身子。做好一只螃蟹。六只萌萌哒螃蟹出品了。放入冷水的锅中盖好盖子放置十五分钟(让其充分醒一下)。小火蒸十五分钟，关火。再虚蒸五分钟，出锅。第一次做，品相稍微有点不尽人意。但口感超棒。

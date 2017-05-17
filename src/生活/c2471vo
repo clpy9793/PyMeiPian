@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+第一次玩瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球玩转瑜伽球自创骆驼变体式跟辰公主玩下腰辰辰别走配合默契叫你亲我呢🐷美图美图美图原图原图原图

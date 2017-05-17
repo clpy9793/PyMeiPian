@@ -1,0 +1,24 @@
+寒江晓雾，正冰天、树树凇花云叠。昨夜飞琼千万缕，谁剪条条晴雪？冰羽晶莹，霓裳窈窕，欲舞高寒阙。烟波照影，翩翩思与谁约？雾淞美景如画。看这美景让人的心情无比激动。看看坝上春天的雾淞真是个美！我们下午来看雾淞早已消失，真的很遗憾只好拍摄了河面踏雪照片。
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });

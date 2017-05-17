@@ -39,7 +39,7 @@ async def start_category(category_id):
                 n = None
                 async with aiofiles.open("{0}_err.log".format(category_id), 'ab+') as f:
                     await f.write("{0}{1}".format(max_id, e).encode('utf8'))
-            max_id = n if n else (int(max_id) - 20)
+            max_id = int(n if n else (int(max_id) - 20))
             if max_id <= 0:
                 return
             # print('等待一会')
