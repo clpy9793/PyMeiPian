@@ -1,0 +1,25 @@
+　　一年一度的西安曲江“五一”车展，国际会展中心四周马路停车位早已爆满，人群接踵而至……这里云集各路豪车，让爱车一族目不暇接，美女车模个个高挑华丽，气质绝佳，让男士们双眼饱览美女大餐，一场如约而至的视觉盛宴近在眼前！　　一年一度的西安曲江“五一”车展，国际会展中心四周马路停车位早已爆满，人群接踵而至……这里云集各路豪车，让爱车一族目不暇接，美女车模个个高挑华丽，气质绝佳，让男士们双眼饱览美女大餐，一场如约而至的视觉盛宴近在眼前！
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+~期待明年再见~~期待明年再见~

@@ -1,0 +1,25 @@
+印度是个一直想往的地方、古老又神秘、终于有机会踏上了这块土地只是走马观花的游览了德里、瓦拉纳西、克拉久霍、阿格拉、斋浦尔、但不论是印度的异域风情还是印度人民的纯朴、热情都留下了久久不能忘怀的印象、仅此分享给各位。印度是个一直想往的地方、古老又神秘、终于有机会踏上了这块土地只是走马观花的游览了德里、瓦拉纳西、克拉久霍、阿格拉、斋浦尔、但不论是印度的异域风情还是印度人民的纯朴、热情都留下了久久不能忘怀的印象、仅此分享给各位。印度门（德里）莲花庙露宿在寺庙外的老人古老的印度街头艺人鹿野苑瑜珈休练者与神灵的心神沟通恒河祈祷恒河畔的印度民众祭品售卖恒河日出恒河印度教信众在恒河中沐浴乞求上主洗去其罪恶街头行艺印度教信众（天衣派）性爱庙群（克拉久霍）奥查古堡（占西）古堡外的街头行艺者泰姬陵（斋浦尔）泰姬陵被称为世界七大建筑奇迹阿格拉红堡琥珀堡（斋浦尔）宝石镶钦的图案宫殿外的卫士甘地陵园印度穆斯林德里红堡顾古特遗址（德里）在餐厅用餐偶遇婚礼
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+在餐厅用餐偶遇婚礼                                    谢谢收看🙏                                       谢谢收看🙏   

@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+田横元宵节独特民俗豆面灯又隆重上演啦!

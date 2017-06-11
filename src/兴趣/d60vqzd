@@ -1,0 +1,25 @@
+诗情画意水墨风温和从容，岁月静好一旦提笔，一生追求余生很长，记得善良精气神祥云紫气绕光明，昔日拓荒忘艰辛。挥汗拼搏又十载，和谐美满浴春萦。千秋福地，健康天长静以修身对酒当歌，人生几何致我们终将逝去的青春乘风破浪会有时，直挂云帆济沧海做好当下，何愁未来一万年太久，只争朝夕家和万事兴家和万事兴
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+家和万事兴路漫漫其修远兮，吾将上下而求索以柳为态，以月为神室雅兰香茶禅一味三生三世，十里桃花浮生若茶，甘苦一念山有木兮木有枝，心悦君兮君不知。海纳百川返璞归真清明时节雨纷纷，路上行人欲断魂。借问酒家何处有？牧童遥指杏花村。春暖花开小桥流水寄年华紫气东来临米芾笤溪帖一心念佛刘文祥，汉族，1985年出生于安徽省天长市，毕业于安徽工程大学，从事设计工作，业余时间热爱学习古人二王和米芾书法，工于行书。

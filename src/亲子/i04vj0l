@@ -1,0 +1,24 @@
+         我们家小活宝刚满十五个月，面部表情丰富，搞怪动作不断，只是未能抓拍到最萌的瞬间，现精选一些较萌的参赛，以响应美篇组织的活动。         我们家小活宝刚满十五个月，面部表情丰富，搞怪动作不断，只是未能抓拍到最萌的瞬间，现精选一些较萌的参赛，以响应美篇组织的活动。各位看官，请欣赏一下我的萌态吧各位看官，请欣赏一下我的萌态吧最后来个情景小剧最后来个情景小剧
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });

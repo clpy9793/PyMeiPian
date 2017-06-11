@@ -1,0 +1,24 @@
+一定是特别的缘份才可以一路走来变成一家人……从此不再是一个人时时想着念着的都是你们你付出了几分爱就圆满了几分……hey  jude!don't let me downyou have found her now go and get herRemember to let her into your heartThen you can dtart to make it betterSo let it out and let it in嗨，宝贝！新的学期  我们一起加油！
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });

@@ -1,0 +1,25 @@
+我家宝宝萌萌哒我家宝宝萌萌哒        我们常常不能忘记一些事情，今天的行走，明天的寻找，都像在延续昨天的记忆。                有个声音总在心里暗暗地说，要找到那年那时那天的人，感受那年那天那时的那个情。也许是友情，也许是爱情，甚至一些不可状的小情绪。我们不得不一路寻找，找到那个最初的源头。        我们常常不能忘记一些事情，今天的行走，明天的寻找，都像在延续昨天的记忆。                有个声音总在心里暗暗地说，要找到那年那时那天的人，感受那年那天那时的那个情。也许是友情，也许是爱情，甚至一些不可状的小情绪。我们不得不一路寻找，找到那个最初的源头。
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+        一样东西无论充满了多么贵重的回忆，它都不是回忆本身。珍贵的东西是埋藏在心里的，没有快乐，微笑还在，没有童话，童年还在。        一样东西无论充满了多么贵重的回忆，它都不是回忆本身。珍贵的东西是埋藏在心里的，没有快乐，微笑还在，没有童话，童年还在。童年是风，吹来朵朵白云；童年是云，化作绵绵春雨；童年是雨，滋润初生大地；童年是花，伴我暮看晚霞。童年是风，吹来朵朵白云；童年是云，化作绵绵春雨；童年是雨，滋润初生大地；童年是花，伴我暮看晚霞。交流微信  pocoa8888交流微信  pocoa8888

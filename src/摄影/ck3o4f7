@@ -1,0 +1,25 @@
+神奇梦幻的缺牙山自2015年一组《三十年重上缺牙山》相片发出之后，效应出乎意料之外的热门、珍2017春节休假应缺牙山客栈老板张海青之邀，初四前去做客并携同众摄影爱好者釆风。天气也相当不错，让所有上山的发烧友和游客目睹了缺牙山的真正面纱！神奇梦幻的缺牙山自2015年一组《三十年重上缺牙山》相片发出之后，效应出乎意料之外的热门、珍2017春节休假应缺牙山客栈老板张海青之邀，初四前去做客并携同众摄影爱好者釆风。天气也相当不错，让所有上山的发烧友和游客目睹了缺牙山的真正面纱！延时摄影的缺牙山
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+延时摄影的缺牙山

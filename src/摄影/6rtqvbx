@@ -1,0 +1,24 @@
+        也许是幸运吧能在内蒙生活一段时间，有幸欣赏到那千奇百怪的云彩，蓝的那样纯净通透的天空，辽阔的草原，成群的牛羊，处在那样的环境里似乎连烦恼都不再有呢！                 
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });

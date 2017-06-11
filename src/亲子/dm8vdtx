@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video1',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+快乐池塘栽种了梦想就变成海洋鼓的眼睛大嘴巴同样唱的响亮借我一双小翅膀就能飞向太阳我相信奇迹就在身上啦......快乐池塘栽种了梦想就变成海洋鼓的眼睛大嘴巴同样唱的响亮借我一双小翅膀就能飞向太阳我相信奇迹就在身上啦......

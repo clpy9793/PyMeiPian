@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+制作这汤圆讲究的是制馅，今天小草就利用家中现有的芝麻，及花生做两种汤圆……首先芝麻要小火炒香……碾压成粉状。拌少许白糖。拌少许猪油。花生仁要放入微波炉(2分钟)烤香去皮。碾压成小粒拌白糖。拌少许猪油。要用上好的水磨糯米粉。揉和成团。醒20分钟，然后揉搓合适的面泥做成小球状，放在左手掌压成小饼放入馅周边收拢搓揉成团一斤糯米粉做了这么多，明天的早餐，打两个鸡蛋再放点甜酒，让我外孙开心，开心！来，放入冰箱冻一晚……浓浓的亲情汤圆做成功了，为小草高兴吧，悄悄地告诉你：这可是60年来小草的第一次呢！煎俩张面饼，哦，开始煮汤圆啦，有红枣，鸡蛋，😊😊来，尝一碗……

@@ -1,0 +1,25 @@
+说走就走的旅行.至于会丢点什么真没数.🈶️大哥接 去哪也不怕.屁颠颠的跟着.看看蓝天，深呼吸.清肺.走在丽江古城的小道，听听丽江的民乐 、打打手鼓.第一顿 云南米线 好吃晚上小酒吧走一个.第二天 开着大哥的车 直奔拉市海.耳边传来娇滴滴的声音，开慢点一阵阵的妖风，吹的我们船也没划，马也没骑.自拍下赶紧走.回去又是米线、撑的我俩走不动路，不吃够不算完.晚上继续小酒吧.丽江—大理 坐在洱海边 看看风景 喝喝茶.洱海的酒店电压不稳，空调不给力，还好有电热毯，躲在被子里，三点都没有睡着过.早上七点就起来拍照片 外面七度 我忍 海边小风阵阵，路过的人问我：不冷么？我说：我忍了拍完赶紧把大衣裹上，冻死人不偿命啊.哆哆嗦嗦的还是喝点热茶 看看海鸥.pp照片.
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+哆哆嗦嗦的还是喝点热茶 看看海鸥.pp照片.再往前走着走着，一片小树林，人家拍结婚照，我俩玩自拍.牵着你的手，一路走下去.晃晃荡荡回到丽江，最后一个晚上，怎能没有酒精.背起我们的行囊，回杭.

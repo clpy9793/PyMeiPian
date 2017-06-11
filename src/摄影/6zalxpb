@@ -1,0 +1,73 @@
+　　10月2～3日，十八号台风暹芭外围影响浙南沿海，带来了湛蓝的天空，朵朵的白云，空气质量达到少有的优级。打开微信微博，满屏是圈友晒天南海北的旅游风光照。有钱任性豪游，没钱低调穷游，背上行囊，开上宝🐎，来个环海线一日游，24小时下来，经历了蓝天、白云、日落、星空、银河、日出、云雾的极致变化，感受了自然界日月星辰的变迁……著名的公婆石，天蓝云白……延时摄影-公婆石流云
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+延时摄影-公婆石流云灵瑞宫🐲顶祥☁️……延时摄影-灵瑞宫祥云
+    
+    new Vue({
+        el: '#video1',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+延时摄影-灵瑞宫祥云感受滩涂日落光影的变幻……日落时分的彩云变幻……延时摄影-醉美赤溪湾日落西山，光影变幻……延时摄影--大渔湾日落入夜仰望，天空繁星点点，一条银河高悬……繁星流动……延时摄影--妈祖庙星空凌晨时分，登上皇帝坪山顶，面朝大海，等待日出的来临……延时摄影-皇帝坪日出
+    
+    new Vue({
+        el: '#video5',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+延时摄影-皇帝坪日出远眺云台山，云漫山涧，云雾缭绕……延时摄影--云台山云雾

@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+        你见过雨中的宏村么？真是有一种别样的风情，美得如同画上去的一般。        由于地理位置的原因吧，常常云蒸霞蔚，时而如泼墨重彩，时而如淡抹写意，恰似山水长卷，融入自然景观中，因此，宏村被誉为“中国画里的乡村”。        我们在宏村的两天，天空飘下绵绵细雨，远处山脉含烟，近处春柳低垂，这样的美在宏村常见又有些不真实。        白墙黛瓦在烟雨蒙蒙中，就像一幅幅水墨画，浓墨重彩层层叠叠，美不胜收。        虽然商业化的痕迹明显，但历经岁月的马头墙，依然无声的美丽着……        你见过雨中的宏村么？真是有一种别样的风情，美得如同画上去的一般。        由于地理位置的原因吧，常常云蒸霞蔚，时而如泼墨重彩，时而如淡抹写意，恰似山水长卷，融入自然景观中，因此，宏村被誉为“中国画里的乡村”。        我们在宏村的两天，天空飘下绵绵细雨，远处山脉含烟，近处春柳低垂，这样的美在宏村常见又有些不真实。        白墙黛瓦在烟雨蒙蒙中，就像一幅幅水墨画，浓墨重彩层层叠叠，美不胜收。        虽然商业化的痕迹明显，但历经岁月的马头墙，依然无声的美丽着……

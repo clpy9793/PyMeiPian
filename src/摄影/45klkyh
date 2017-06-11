@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+文图，格桑贡布པར་རྩོམ ཁམས་སོག་སྲས།文图，格桑贡布པར་རྩོམ ཁམས་སོག་སྲས།色达僧众辩经现场，真正的藏传佛教学术讨论盛会佛学用语，是对佛教理论的辩论僧人学习佛经后，为了加强对佛经的真正理解釆用问答方式交流心得和佛法，如同学术讨论拍手有两个意思一表示我现在向你提问，请你赶快回答并向其致敬第二示在气势上要威慑对手如果回答者回答不上，那么提问者可以击掌戓甩念珠以示警有时也会用手牵弄臂上佛珠寻求佛祖的支持辩经最早源自古印度，藏语称“村尼作巴”，意为“法相”是藏传佛教喇嘛攻读显宗经典的必经方式。不要问我为什么没有记忆我是菩提树上掉下的一颗种籽不要问我为什么只知道傻笑如果不忘掉自己，就无法记住你可以在这里联系作家

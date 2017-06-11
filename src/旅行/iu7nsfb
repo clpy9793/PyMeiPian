@@ -1,0 +1,120 @@
+五一小东江游随摄 美篇风景人像摄影//编辑原创： 清   秀(业余摄影爱好者，单反新手。形体礼仪导师，新时代农民。小舟出镜模特即清秀本人)感谢同行刘海以及现场摄友们友情为本人提供独拍与同行姐妹合影美拍。       小东江～位于美丽的家乡，湖南郴州。是一著名景点，主要是雾景和渔夫的撒网表演。      每天5点到9点、17点到19点半，乌篷船船工配合游客在小东江工作（划船、撒网表演等）       我们来的季节有点过早，传说中的仙雾一般要在五月底到八月间出现。五一小东江游随摄 美篇风景人像摄影//编辑原创： 清   秀(业余摄影爱好者，单反新手。形体礼仪导师，新时代农民。小舟出镜模特即清秀本人)感谢同行刘海以及现场摄友们友情为本人提供独拍与同行姐妹合影美拍。       小东江～位于美丽的家乡，湖南郴州。是一著名景点，主要是雾景和渔夫的撒网表演。      每天5点到9点、17点到19点半，乌篷船船工配合游客在小东江工作（划船、撒网表演等）       我们来的季节有点过早，传说中的仙雾一般要在五月底到八月间出现。随身携带相机用镜头记录下家乡的山山水水山之光水之声眼前景象如诗如画如痴如醉更如一幅水墨丹青画卷一种心照不宣的共识一种心领神会的默契说走就走所有的遇见都是缘……携一颗简约的心相约时光把每一段风景纳入心怀这一季月朗风清的美好有我们的存在持一种洒然的姿态如风般来去自由为生活增添一丝色彩唯简醉美荡一叶轻舟掠过红尘繁华找寻心灵的缱绻以明媚的姿态细读岁月待经年回眸化成一抹微笑——诗词君渔舟唱晚渔舟唱晚依着灯火阑珊，回看旧时的印记时光的辗转中掠过红尘万千喜欢在一首旧曲子中沦陷总有些故事婉约了经年的回眸婉约了经年的回眸总有些遇见唯美了似水流年天籁音韵，花香鸟语，潺潺溪流，竹叶摇曳，淳朴的风情不时尚，却是最简单的幸福。 漫心优雅、心净自清，点滴流逝的岁月里，光阴静好，仿若一帧静美的画卷，那将是我们对生活孜孜不倦的追求。￼天籁音韵，花香鸟语，潺潺溪流，竹叶摇曳，淳朴的风情不时尚，却是最简单的幸福。 漫心优雅、心净自清，点滴流逝的岁月里，光阴静好，仿若一帧静美的画卷，那将是我们对生活孜孜不倦的追求。￼
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+
+    
+    new Vue({
+        el: '#video1',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+
+    
+    new Vue({
+        el: '#video2',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+
+    
+    new Vue({
+        el: '#video3',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+
+    
+    new Vue({
+        el: '#video4',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });

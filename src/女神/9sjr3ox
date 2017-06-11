@@ -1,0 +1,163 @@
+过往的经历，不一定都是美好的，但每当回忆时能笑出来，那就是幸福的岁月静好，细数自己留下的痕迹，是一件多么美好的事情
+        function preview(i)
+        {
+            var imgList = ["http://static2.ivwen.com/users/2375216/b8cd0ddea7164ceab3d655d18c4c6455.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9iOGNkMGRkZWE3MTY0Y2VhYjNkNjU1ZDE4YzRjNjQ1NS5qcGc=/sign/44714ae27a42566986875a17bd19b89d.jpg","http://static2.ivwen.com/users/2375216/33af18c5cf3f43b3a2269d3db63b747a.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8zM2FmMThjNWNmM2Y0M2IzYTIyNjlkM2RiNjNiNzQ3YS5qcGc=/sign/04a6775ace9f72a7fcbd4735fb8d53e2.jpg","http://static2.ivwen.com/users/2375216/761e0877d97a47bfbf321937f5a2d761.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi83NjFlMDg3N2Q5N2E0N2JmYmYzMjE5MzdmNWEyZDc2MS5qcGc=/sign/e5eb1efacb8214be984fc06e5f210d70.jpg","http://static2.ivwen.com/users/2375216/66588c4318bb41449d8337fb383cf182.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi82NjU4OGM0MzE4YmI0MTQ0OWQ4MzM3ZmIzODNjZjE4Mi5qcGc=/sign/2bb969194982c9f0502e29ee1f555ac4.jpg","http://static2.ivwen.com/users/2375216/50f3822e09be42b28b9b1f93ac541e1b.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi81MGYzODIyZTA5YmU0MmIyOGI5YjFmOTNhYzU0MWUxYi5qcGc=/sign/da76bfcc49043c630cf48e61817e18df.jpg","http://static2.ivwen.com/users/2375216/30658db7ce574d599c0aba2ff16d2d6e.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8zMDY1OGRiN2NlNTc0ZDU5OWMwYWJhMmZmMTZkMmQ2ZS5qcGc=/sign/2cfaf50515fe5f6038c0774f3bde851b.jpg","http://static2.ivwen.com/users/2375216/2ad1be56080d44c7aed7e82d012bed35.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8yYWQxYmU1NjA4MGQ0NGM3YWVkN2U4MmQwMTJiZWQzNS5qcGc=/sign/16817f1f7c83ca89d27845f76ab40dc1.jpg","http://static2.ivwen.com/users/2375216/d71fe3bd49484bd287f3c24841daf319.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9kNzFmZTNiZDQ5NDg0YmQyODdmM2MyNDg0MWRhZjMxOS5qcGc=/sign/1809ed69b5177f6ff02046a09935b315.jpg","http://static2.ivwen.com/users/2375216/dde2923f8a48492487569150dc99b7f2.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9kZGUyOTIzZjhhNDg0OTI0ODc1NjkxNTBkYzk5YjdmMi5qcGc=/sign/c4c09ecf00a6713676cd89582a251e70.jpg","http://static2.ivwen.com/users/2375216/2009675de9ac4036abc37ed5c5620a38.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8yMDA5Njc1ZGU5YWM0MDM2YWJjMzdlZDVjNTYyMGEzOC5qcGc=/sign/b010c24e146b95659a4d667b6f226189.jpg","http://static2.ivwen.com/users/2375216/060b7fe791e544cf814610df868c5221.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8wNjBiN2ZlNzkxZTU0NGNmODE0NjEwZGY4NjhjNTIyMS5qcGc=/sign/314a5813a18805c697fb9ce876f051fa.jpg","http://static2.ivwen.com/users/2375216/292a4d529a6640f4b258d0a6a58b67f8.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8yOTJhNGQ1MjlhNjY0MGY0YjI1OGQwYTZhNThiNjdmOC5qcGc=/sign/955fa65bc753c3d3f26f8b9c018e96e1.jpg","http://static2.ivwen.com/users/2375216/f358c0f266ba421faa8b13dafa329077.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9mMzU4YzBmMjY2YmE0MjFmYWE4YjEzZGFmYTMyOTA3Ny5qcGc=/sign/b52d38ff43815d7dc9bd046a2386b1a5.jpg","http://static2.ivwen.com/users/2375216/b7984b2b89d54251b9d4fb640a55c542.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9iNzk4NGIyYjg5ZDU0MjUxYjlkNGZiNjQwYTU1YzU0Mi5qcGc=/sign/99e28867a921ebd0ab774742a5978826.jpg","http://static2.ivwen.com/users/2375216/05767088999d4eb089ba9efa9f9dec44.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8wNTc2NzA4ODk5OWQ0ZWIwODliYTllZmE5ZjlkZWM0NC5qcGc=/sign/3471baa2a15e862a492423cf2ed15d69.jpg","http://static2.ivwen.com/users/2375216/b6a4b1d5c5a24d82b17137876a6185f5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9iNmE0YjFkNWM1YTI0ZDgyYjE3MTM3ODc2YTYxODVmNS5qcGc=/sign/917864f5ea66ff6923b3d01fbdb5d137.jpg","http://static2.ivwen.com/users/2375216/0c70b36acb8b43de830635a7ade464f1.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8wYzcwYjM2YWNiOGI0M2RlODMwNjM1YTdhZGU0NjRmMS5qcGc=/sign/1a5f3e4f7d88b31dee875a531f03155a.jpg","http://static2.ivwen.com/users/2375216/e7f89ce0c5ea4e909f413eb4ec5262db.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9lN2Y4OWNlMGM1ZWE0ZTkwOWY0MTNlYjRlYzUyNjJkYi5qcGc=/sign/4df94a48cfeed80b456eec3fd92350ed.jpg","http://static2.ivwen.com/users/2375216/de3051364e144152b5d51769a58d6c1d.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9kZTMwNTEzNjRlMTQ0MTUyYjVkNTE3NjlhNThkNmMxZC5qcGc=/sign/183a53e06242bc1d887708cdbe2fc176.jpg","http://static2.ivwen.com/users/2375216/3e423710f84c4a269b89161b35096c8d.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8zZTQyMzcxMGY4NGM0YTI2OWI4OTE2MWIzNTA5NmM4ZC5qcGc=/sign/25517ea4154f3b2e4e2d2c5257916a51.jpg","http://static2.ivwen.com/users/2375216/1fa2c0334b294add9b8e0792ee90b7a6.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8xZmEyYzAzMzRiMjk0YWRkOWI4ZTA3OTJlZTkwYjdhNi5qcGc=/sign/c840e629a2a806ddcf556d015114f414.jpg","http://static2.ivwen.com/users/2375216/fd6b281f86c1439797e72e74ad3ae5da.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9mZDZiMjgxZjg2YzE0Mzk3OTdlNzJlNzRhZDNhZTVkYS5qcGc=/sign/b76a5474985ad6ff0fa7fdd45ab8dc58.jpg","http://static2.ivwen.com/users/2375216/6ebfc9bfc60a47b487fdbc0dbea345a4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi82ZWJmYzliZmM2MGE0N2I0ODdmZGJjMGRiZWEzNDVhNC5qcGc=/sign/49231e9d2d7d7ce665642c09c1261d96.jpg","http://static2.ivwen.com/users/2375216/36ea889f6dde4925beda9eb95d44b052.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8zNmVhODg5ZjZkZGU0OTI1YmVkYTllYjk1ZDQ0YjA1Mi5qcGc=/sign/2929a45fc3ca349ca2c05a24b6ec7191.jpg","http://static2.ivwen.com/users/2375216/47e3a1ddccf24035adbde7fdf76faffa.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi80N2UzYTFkZGNjZjI0MDM1YWRiZGU3ZmRmNzZmYWZmYS5qcGc=/sign/3f9d9be7b35bded2ec5dce2ac2938879.jpg","http://static2.ivwen.com/users/2375216/23d1b2b3317043189ba8685872ac6665.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8yM2QxYjJiMzMxNzA0MzE4OWJhODY4NTg3MmFjNjY2NS5qcGc=/sign/3825b880785fe7d25ca859a89b8d3d8a.jpg","http://static2.ivwen.com/users/2375216/a61de2e6a24e4d678897d8c60d698ea8.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9hNjFkZTJlNmEyNGU0ZDY3ODg5N2Q4YzYwZDY5OGVhOC5qcGc=/sign/086cdd9776b323762873fca978338044.jpg","http://static2.ivwen.com/users/2375216/5631bd93f3f74c0b8cea798d7280cc3f.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi81NjMxYmQ5M2YzZjc0YzBiOGNlYTc5OGQ3MjgwY2MzZi5qcGc=/sign/ae3c57c12d8b3cd74868a7246608d54c.jpg","http://static2.ivwen.com/users/2375216/04a6374fa99d47fcb6843d05c1444961.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8wNGE2Mzc0ZmE5OWQ0N2ZjYjY4NDNkMDVjMTQ0NDk2MS5qcGc=/sign/229ed987a1f7f96db0d6d4182b74cfd6.jpg","http://static2.ivwen.com/users/2375216/3e8aca4aaad14bc4a34bed37ffc4ad66.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8zZThhY2E0YWFhZDE0YmM0YTM0YmVkMzdmZmM0YWQ2Ni5qcGc=/sign/edb62ce83a86959628b86e0a5d4bc62c.jpg","http://static2.ivwen.com/users/2375216/ba4937ebf205415da48c0c76b8b4c5ef.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9iYTQ5MzdlYmYyMDU0MTVkYTQ4YzBjNzZiOGI0YzVlZi5qcGc=/sign/8544cada5b799abe8105cd67379adf57.jpg","http://static2.ivwen.com/users/2375216/adcf20f29cca409cb1bc679e0f5b76b7.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9hZGNmMjBmMjljY2E0MDljYjFiYzY3OWUwZjViNzZiNy5qcGc=/sign/f9baf9bb170ef9d3707f21186c1ea518.jpg","http://static2.ivwen.com/users/2375216/8a1ad7cc90e940388f4e169d8b006184.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi84YTFhZDdjYzkwZTk0MDM4OGY0ZTE2OWQ4YjAwNjE4NC5qcGc=/sign/3f5e2eb7a7ba3f390d63374e7e3e9b89.jpg","http://static2.ivwen.com/users/2375216/cda05f60c25b48f4a61e532d0a99f195.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9jZGEwNWY2MGMyNWI0OGY0YTYxZTUzMmQwYTk5ZjE5NS5qcGc=/sign/14257fdb8f7186fbc94fa61b086e4bf7.jpg","http://static2.ivwen.com/users/2375216/4e0c3195e5304428ac1ce290f6847951.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi80ZTBjMzE5NWU1MzA0NDI4YWMxY2UyOTBmNjg0Nzk1MS5qcGc=/sign/d88e7f81dc20cdbb998a36136c7335ea.jpg","http://static2.ivwen.com/users/2375216/29608a15b55e4ca4b5dd5240a3e0034f.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8yOTYwOGExNWI1NWU0Y2E0YjVkZDUyNDBhM2UwMDM0Zi5qcGc=/sign/58e7704336a65a0c0c31570667f0f9f5.jpg","http://static2.ivwen.com/users/2375216/5a889d46ff1144699cb42cef359cce89.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi81YTg4OWQ0NmZmMTE0NDY5OWNiNDJjZWYzNTljY2U4OS5qcGc=/sign/91235c8021975e4b448ae126ef157bf3.jpg","http://static2.ivwen.com/users/2375216/b040f148c6b44a48b091b77c174aa429.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9iMDQwZjE0OGM2YjQ0YTQ4YjA5MWI3N2MxNzRhYTQyOS5qcGc=/sign/5168c71472f85efca07e37bacb7ab05f.jpg","http://static2.ivwen.com/users/2375216/e229bf53190b48b7be892f0577a09b7d.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9lMjI5YmY1MzE5MGI0OGI3YmU4OTJmMDU3N2EwOWI3ZC5qcGc=/sign/897d9d15f6683589537119c8b1a8c566.jpg","http://static2.ivwen.com/users/2375216/15ab200060614c3fb45b816bc3c3b6a4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi8xNWFiMjAwMDYwNjE0YzNmYjQ1YjgxNmJjM2MzYjZhNC5qcGc=/sign/2bef6f2b82e3d3ad1af4a3c9271af20b.jpg","http://static2.ivwen.com/users/2375216/9fd66ecef2a34f10813516646c592beb.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi85ZmQ2NmVjZWYyYTM0ZjEwODEzNTE2NjQ2YzU5MmJlYi5qcGc=/sign/9146393e032a29d08233bc6c2b9c03e0.jpg","http://static2.ivwen.com/users/2375216/791c8bffc5ce433d9be6d7a2204ba5a4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi83OTFjOGJmZmM1Y2U0MzNkOWJlNmQ3YTIyMDRiYTVhNC5qcGc=/sign/5d60114268191290454cfb48b8642c93.jpg","http://static2.ivwen.com/users/2375216/dd924772a7594d1292a7f8d654663d1b.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi9kZDkyNDc3MmE3NTk0ZDEyOTJhN2Y4ZDY1NDY2M2QxYi5qcGc=/sign/20baf6c125723e4c26557b72e4cbd8cc.jpg","http://static2.ivwen.com/users/2375216/86389105bc964003b4077b091f5103d5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMjM3NTIxNi84NjM4OTEwNWJjOTY0MDAzYjQwNzdiMDkxZjUxMDNkNS5qcGc=/sign/c168d90066a157427983c03d41561838.jpg"];
+            
+            if (window.android)
+            {
+                window.android.previewImage(i, imgList);
+            }
+    
+            var message = {
+                current: imgList[i],
+                urls:  imgList
+            };
+            try
+            {
+                wx.previewImage(message);
+            }
+            catch (err) {}
+            window.webkit.messageHandlers.previewImage.postMessage(message);
+        }
+    	
+
+	阅读 1754举报
+    
+        
+            
+        
+        
+            
+                作者：鱼跃            
+            
+                            
+        
+        
+    
+
+
+
+    
+        
+        最新评论
+    
+    
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            老杨哥
+                            1486977179
+                        
+                        
+                            图片精美，好作品！学习了👍转起！让我们相互关注、分亨、支持，推广我们的美篇，让旅行的脚步走得更远……🙏分亨到朋友圈最给力哦!
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            落英缤纷
+                            1483110651
+                        
+                        
+                            美文
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            心无旁骛(tessa)
+                            1482316158
+                        
+                        
+                            👍
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            茶香四溢
+                            1482024733
+                        
+                        
+                            😊
+                        
+                    
+                
+            
+        
+
+
+    $(".commentLastTime").each(function(index, ele) {
+        var time = $(ele).html();
+        $(ele).html(formatMsgTime(time));
+    });
+免费制作你自己的图文故事
+        console.log(1)
+        
+    
+        console.log("");
+    
+
+                var bottomFlag = false;
+                $(window).scroll(function(){
+                　　var scrollTop = $(this).scrollTop();
+                　　var scrollHeight = $(document).height();
+                　　var windowHeight = $(this).height();
+                　　if(scrollTop + windowHeight >= scrollHeight - 60){
+                        if (!bottomFlag) {
+                            // make some request
+                            $.ajax({
+                                type: "get",
+                                url: "https://www.meipian.cn/app/stat/article_bottom_scroll.php?key=stat:adshow:bottom&operator=meipian&type=",
+                                success: function(res) {
+                                    console.log(res);
+                                },
+                                error : function(res) {
+                                    console.log(res);
+                                }
+                            })
+                        }
+                        bottomFlag = true;
+                　　}
+                });
+            
+
+
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();

@@ -1,0 +1,25 @@
+模特：五岁的 其姝 其娈拍摄 引导 后期：甜蜜的爸妈配乐：《静女》地点：甜蜜家阳台模特：五岁的 其姝 其娈拍摄 引导 后期：甜蜜的爸妈配乐：《静女》地点：甜蜜家阳台静女静女其姝 俟我于城隅爱而不见 搔首踟蹰静女其娈 贻我彤管彤管有炜 说怿女美自牧归荑 洵美且异匪女之为美 美人之贻静女静女其姝 俟我于城隅爱而不见 搔首踟蹰静女其娈 贻我彤管彤管有炜 说怿女美自牧归荑 洵美且异匪女之为美 美人之贻
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+拍摄制作:甜蜜德巍笑2017年1月26日

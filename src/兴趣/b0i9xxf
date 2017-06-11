@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+每年的12月是大蜚山枫叶红的季节，我约了几位驴友去爬大蜚山，一路上看到了大蜚山满山的枫叶都红了。我随手捡起一片刚刚飘落的枫叶，感觉有一丝无奈。枫叶原本是枫树的一部分，而季节的交替却无情的把它们分开，虽然彼此都很舍不得，但却无可奈何。毕竟，没有枫叶的枫树，可能没有人会欣赏它，而没有枫树就更不可能有枫叶。现在它们只能远远的对望着，也许它们在伤心，也许它们在哭泣，它们是多么希望能够长厢厮守、永不分离，但现实却是残酷的，无情的把它们分开。枫叶啊！你的离开是风的追求？还是树不挽留呢？如果我听到了你的呼唤一定将你捡起，编制出一个属于你的梦。枫叶，为冬"南方"时最悲，她以自己将即落叶飘魂的残息，不断倾诉自己着凉凄，可是，无人理解和搭理。人们依然欣赏枫叶的回味，逐日枯萎的枫叶，依然饱受着寒霜的侵袭，直至魂飘落叶扑向大地。树上的红枫叶，都是由稚气的淡淡的绿色叶片，经历长时间的风吹雨打，才成为了今天这片红叶，这是它生命结束之前的灿烂。很多时候，自然界其实和人类极其的相似。

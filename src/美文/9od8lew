@@ -1,0 +1,1038 @@
+憶秦娥 • 夏雨夜（2016年8月2日）夏雨夜，晚風拂面孤影現。孤影現。愁絲千繞，蹙眉何願？恍惚不記今何年，點滴細碎漫心間。漫心間。金樽空舉，不見嬋娟。青玉案 • 從此夢牽顧（2016年8月12日）未知風雨前行路，且料想，無由處。往事如煙依稀去。涼悲喜趣，離友別故，從此夢牽顧。三歲春光何如許？終將輕吟行知句。半生秋臨日近暮。收拾心情，放牧西域，莫教浦江負。釆桑子 • 莫說心情（2016年8月15日）忍將身軀作浮萍，出為心境，困亦心境。記得江南好風景。夜闌星稀孤月明，莫說心情，不甚心情。風雨路上憶長亭。青玉案 • 西行漫話（2016年8月19日）萬水千山西域路。言五講，囑無數，歷者悉心對接處。春花秋月，怎堪虛度？慎思踐行步。玉門關隘難飛渡？浦江脈脈溫情付，碧海青天漢維敘。縈縈離緒，綿綿情愫，最憶衷情訴。漫話西行（2016年8月23日）浦江西域風光異，人生自應隨心意。放馬疆陲悠然望，當年路上覓綢絲。南鄉子 • 作別滬上（2016年8月28日）秋意涼風起，喚來層雲遮夜空。靜默街燈無語處，朦朧。何由獨思望蒼穹？最憶故人情，曉來作別聽機鳴。今生三年巴楚日，鄭重。莫道浦江流夢中。
+        function preview(i)
+        {
+            var imgList = ["http://static2.ivwen.com/users/489354/3f9b2809f1824001a41ae33f26606c8f.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzNmOWIyODA5ZjE4MjQwMDFhNDFhZTMzZjI2NjA2YzhmLmpwZw==/sign/0e84fdbdd066a2b16a5706ece75fad83.jpg","http://static2.ivwen.com/users/489354/dcacc5e849f34957a8a154b5839590a7.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2RjYWNjNWU4NDlmMzQ5NTdhOGExNTRiNTgzOTU5MGE3LmpwZw==/sign/2e3a1a945b53f250698dada089a15545.jpg","http://static2.ivwen.com/users/489354/f417f2da5d9748d5a97246442de922c4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2Y0MTdmMmRhNWQ5NzQ4ZDVhOTcyNDY0NDJkZTkyMmM0LmpwZw==/sign/80c4308ef65289cc31a956752524dc7a.jpg","http://static2.ivwen.com/users/489354/2033dd44996f48cf9263eab4df3c1aaf.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzIwMzNkZDQ0OTk2ZjQ4Y2Y5MjYzZWFiNGRmM2MxYWFmLmpwZw==/sign/9eb7e617ecbc3e6d1fbf6e8b1fe13f21.jpg","http://static2.ivwen.com/users/489354/1ef32f1e92d240f385f89eb49c783672.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzFlZjMyZjFlOTJkMjQwZjM4NWY4OWViNDljNzgzNjcyLmpwZw==/sign/0aa3bfda2ca4e9fd83cf9ea4b3c03bb1.jpg","http://static2.ivwen.com/users/489354/247cab12f9394a9abb0311bee31cccf5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzI0N2NhYjEyZjkzOTRhOWFiYjAzMTFiZWUzMWNjY2Y1LmpwZw==/sign/395978f344a31e769ca8436c31b7216b.jpg","http://static2.ivwen.com/users/489354/d015107b5c984c44b36626329a3ec092.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2QwMTUxMDdiNWM5ODRjNDRiMzY2MjYzMjlhM2VjMDkyLmpwZw==/sign/c0205875973041272ec1e2faf9113ed2.jpg"];
+            
+            if (window.android)
+            {
+                window.android.previewImage(i, imgList);
+            }
+    
+            var message = {
+                current: imgList[i],
+                urls:  imgList
+            };
+            try
+            {
+                wx.previewImage(message);
+            }
+            catch (err) {}
+            window.webkit.messageHandlers.previewImage.postMessage(message);
+        }
+    	
+
+	阅读 879举报
+    
+        
+            
+        
+        
+            
+                作者：空灵            
+            
+                千江有水千江月，万里无云万里天。            
+        
+        
+    
+
+
+
+    
+        
+        最新评论
+    
+    
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            开心姥爷-唐承弟
+                            1482216600
+                        
+                        
+                            一个字：美
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            空灵
+                            1482168358
+                        
+                        
+                            雨荷过奖了，我当视为温暖的鼓励。八月底从上海开始三年的援疆之旅，行前多有忐忑，偶尔涂鸦。谢谢！
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            幽幽清香
+                            1482155356
+                        
+                        
+                            欣赏！👍
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            烁冉
+                            1482149413
+                        
+                        
+                            赞👍
+                        
+                    
+                
+            
+        
+
+
+    $(".commentLastTime").each(function(index, ele) {
+        var time = $(ele).html();
+        $(ele).html(formatMsgTime(time));
+    });
+免费制作你自己的图文故事
+        console.log(1)
+        
+    
+        console.log("");
+    
+
+                var bottomFlag = false;
+                $(window).scroll(function(){
+                　　var scrollTop = $(this).scrollTop();
+                　　var scrollHeight = $(document).height();
+                　　var windowHeight = $(this).height();
+                　　if(scrollTop + windowHeight >= scrollHeight - 60){
+                        if (!bottomFlag) {
+                            // make some request
+                            $.ajax({
+                                type: "get",
+                                url: "https://www.meipian.cn/app/stat/article_bottom_scroll.php?key=stat:adshow:bottom&operator=meipian&type=",
+                                success: function(res) {
+                                    console.log(res);
+                                },
+                                error : function(res) {
+                                    console.log(res);
+                                }
+                            })
+                        }
+                        bottomFlag = true;
+                　　}
+                });
+            
+
+
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
+
+    console.log('10.47.137.152');
+    function videoPause() {
+        var videos = document.querySelectorAll('video');
+        for (var i=0; i<videos.length; ++i) {
+            videos[i].pause()
+        }
+    }
+
+青玉案 • 從此夢牽顧（2016年8月12日）未知風雨前行路，且料想，無由處。往事如煙依稀去。涼悲喜趣，離友別故，從此夢牽顧。三歲春光何如許？終將輕吟行知句。半生秋臨日近暮。收拾心情，放牧西域，莫教浦江負。釆桑子 • 莫說心情（2016年8月15日）忍將身軀作浮萍，出為心境，困亦心境。記得江南好風景。夜闌星稀孤月明，莫說心情，不甚心情。風雨路上憶長亭。青玉案 • 西行漫話（2016年8月19日）萬水千山西域路。言五講，囑無數，歷者悉心對接處。春花秋月，怎堪虛度？慎思踐行步。玉門關隘難飛渡？浦江脈脈溫情付，碧海青天漢維敘。縈縈離緒，綿綿情愫，最憶衷情訴。漫話西行（2016年8月23日）浦江西域風光異，人生自應隨心意。放馬疆陲悠然望，當年路上覓綢絲。南鄉子 • 作別滬上（2016年8月28日）秋意涼風起，喚來層雲遮夜空。靜默街燈無語處，朦朧。何由獨思望蒼穹？最憶故人情，曉來作別聽機鳴。今生三年巴楚日，鄭重。莫道浦江流夢中。
+        function preview(i)
+        {
+            var imgList = ["http://static2.ivwen.com/users/489354/3f9b2809f1824001a41ae33f26606c8f.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzNmOWIyODA5ZjE4MjQwMDFhNDFhZTMzZjI2NjA2YzhmLmpwZw==/sign/0e84fdbdd066a2b16a5706ece75fad83.jpg","http://static2.ivwen.com/users/489354/dcacc5e849f34957a8a154b5839590a7.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2RjYWNjNWU4NDlmMzQ5NTdhOGExNTRiNTgzOTU5MGE3LmpwZw==/sign/2e3a1a945b53f250698dada089a15545.jpg","http://static2.ivwen.com/users/489354/f417f2da5d9748d5a97246442de922c4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2Y0MTdmMmRhNWQ5NzQ4ZDVhOTcyNDY0NDJkZTkyMmM0LmpwZw==/sign/80c4308ef65289cc31a956752524dc7a.jpg","http://static2.ivwen.com/users/489354/2033dd44996f48cf9263eab4df3c1aaf.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzIwMzNkZDQ0OTk2ZjQ4Y2Y5MjYzZWFiNGRmM2MxYWFmLmpwZw==/sign/9eb7e617ecbc3e6d1fbf6e8b1fe13f21.jpg","http://static2.ivwen.com/users/489354/1ef32f1e92d240f385f89eb49c783672.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzFlZjMyZjFlOTJkMjQwZjM4NWY4OWViNDljNzgzNjcyLmpwZw==/sign/0aa3bfda2ca4e9fd83cf9ea4b3c03bb1.jpg","http://static2.ivwen.com/users/489354/247cab12f9394a9abb0311bee31cccf5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzI0N2NhYjEyZjkzOTRhOWFiYjAzMTFiZWUzMWNjY2Y1LmpwZw==/sign/395978f344a31e769ca8436c31b7216b.jpg","http://static2.ivwen.com/users/489354/d015107b5c984c44b36626329a3ec092.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2QwMTUxMDdiNWM5ODRjNDRiMzY2MjYzMjlhM2VjMDkyLmpwZw==/sign/c0205875973041272ec1e2faf9113ed2.jpg"];
+            
+            if (window.android)
+            {
+                window.android.previewImage(i, imgList);
+            }
+    
+            var message = {
+                current: imgList[i],
+                urls:  imgList
+            };
+            try
+            {
+                wx.previewImage(message);
+            }
+            catch (err) {}
+            window.webkit.messageHandlers.previewImage.postMessage(message);
+        }
+    	
+
+	阅读 879举报
+    
+        
+            
+        
+        
+            
+                作者：空灵            
+            
+                千江有水千江月，万里无云万里天。            
+        
+        
+    
+
+
+
+    
+        
+        最新评论
+    
+    
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            开心姥爷-唐承弟
+                            1482216600
+                        
+                        
+                            一个字：美
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            空灵
+                            1482168358
+                        
+                        
+                            雨荷过奖了，我当视为温暖的鼓励。八月底从上海开始三年的援疆之旅，行前多有忐忑，偶尔涂鸦。谢谢！
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            幽幽清香
+                            1482155356
+                        
+                        
+                            欣赏！👍
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            烁冉
+                            1482149413
+                        
+                        
+                            赞👍
+                        
+                    
+                
+            
+        
+
+
+    $(".commentLastTime").each(function(index, ele) {
+        var time = $(ele).html();
+        $(ele).html(formatMsgTime(time));
+    });
+免费制作你自己的图文故事
+        console.log(1)
+        
+    
+        console.log("");
+    
+
+                var bottomFlag = false;
+                $(window).scroll(function(){
+                　　var scrollTop = $(this).scrollTop();
+                　　var scrollHeight = $(document).height();
+                　　var windowHeight = $(this).height();
+                　　if(scrollTop + windowHeight >= scrollHeight - 60){
+                        if (!bottomFlag) {
+                            // make some request
+                            $.ajax({
+                                type: "get",
+                                url: "https://www.meipian.cn/app/stat/article_bottom_scroll.php?key=stat:adshow:bottom&operator=meipian&type=",
+                                success: function(res) {
+                                    console.log(res);
+                                },
+                                error : function(res) {
+                                    console.log(res);
+                                }
+                            })
+                        }
+                        bottomFlag = true;
+                　　}
+                });
+            
+
+
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
+
+    console.log('10.47.137.152');
+    function videoPause() {
+        var videos = document.querySelectorAll('video');
+        for (var i=0; i<videos.length; ++i) {
+            videos[i].pause()
+        }
+    }
+
+釆桑子 • 莫說心情（2016年8月15日）忍將身軀作浮萍，出為心境，困亦心境。記得江南好風景。夜闌星稀孤月明，莫說心情，不甚心情。風雨路上憶長亭。青玉案 • 西行漫話（2016年8月19日）萬水千山西域路。言五講，囑無數，歷者悉心對接處。春花秋月，怎堪虛度？慎思踐行步。玉門關隘難飛渡？浦江脈脈溫情付，碧海青天漢維敘。縈縈離緒，綿綿情愫，最憶衷情訴。漫話西行（2016年8月23日）浦江西域風光異，人生自應隨心意。放馬疆陲悠然望，當年路上覓綢絲。南鄉子 • 作別滬上（2016年8月28日）秋意涼風起，喚來層雲遮夜空。靜默街燈無語處，朦朧。何由獨思望蒼穹？最憶故人情，曉來作別聽機鳴。今生三年巴楚日，鄭重。莫道浦江流夢中。
+        function preview(i)
+        {
+            var imgList = ["http://static2.ivwen.com/users/489354/3f9b2809f1824001a41ae33f26606c8f.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzNmOWIyODA5ZjE4MjQwMDFhNDFhZTMzZjI2NjA2YzhmLmpwZw==/sign/0e84fdbdd066a2b16a5706ece75fad83.jpg","http://static2.ivwen.com/users/489354/dcacc5e849f34957a8a154b5839590a7.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2RjYWNjNWU4NDlmMzQ5NTdhOGExNTRiNTgzOTU5MGE3LmpwZw==/sign/2e3a1a945b53f250698dada089a15545.jpg","http://static2.ivwen.com/users/489354/f417f2da5d9748d5a97246442de922c4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2Y0MTdmMmRhNWQ5NzQ4ZDVhOTcyNDY0NDJkZTkyMmM0LmpwZw==/sign/80c4308ef65289cc31a956752524dc7a.jpg","http://static2.ivwen.com/users/489354/2033dd44996f48cf9263eab4df3c1aaf.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzIwMzNkZDQ0OTk2ZjQ4Y2Y5MjYzZWFiNGRmM2MxYWFmLmpwZw==/sign/9eb7e617ecbc3e6d1fbf6e8b1fe13f21.jpg","http://static2.ivwen.com/users/489354/1ef32f1e92d240f385f89eb49c783672.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzFlZjMyZjFlOTJkMjQwZjM4NWY4OWViNDljNzgzNjcyLmpwZw==/sign/0aa3bfda2ca4e9fd83cf9ea4b3c03bb1.jpg","http://static2.ivwen.com/users/489354/247cab12f9394a9abb0311bee31cccf5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzI0N2NhYjEyZjkzOTRhOWFiYjAzMTFiZWUzMWNjY2Y1LmpwZw==/sign/395978f344a31e769ca8436c31b7216b.jpg","http://static2.ivwen.com/users/489354/d015107b5c984c44b36626329a3ec092.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2QwMTUxMDdiNWM5ODRjNDRiMzY2MjYzMjlhM2VjMDkyLmpwZw==/sign/c0205875973041272ec1e2faf9113ed2.jpg"];
+            
+            if (window.android)
+            {
+                window.android.previewImage(i, imgList);
+            }
+    
+            var message = {
+                current: imgList[i],
+                urls:  imgList
+            };
+            try
+            {
+                wx.previewImage(message);
+            }
+            catch (err) {}
+            window.webkit.messageHandlers.previewImage.postMessage(message);
+        }
+    	
+
+	阅读 879举报
+    
+        
+            
+        
+        
+            
+                作者：空灵            
+            
+                千江有水千江月，万里无云万里天。            
+        
+        
+    
+
+
+
+    
+        
+        最新评论
+    
+    
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            开心姥爷-唐承弟
+                            1482216600
+                        
+                        
+                            一个字：美
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            空灵
+                            1482168358
+                        
+                        
+                            雨荷过奖了，我当视为温暖的鼓励。八月底从上海开始三年的援疆之旅，行前多有忐忑，偶尔涂鸦。谢谢！
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            幽幽清香
+                            1482155356
+                        
+                        
+                            欣赏！👍
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            烁冉
+                            1482149413
+                        
+                        
+                            赞👍
+                        
+                    
+                
+            
+        
+
+
+    $(".commentLastTime").each(function(index, ele) {
+        var time = $(ele).html();
+        $(ele).html(formatMsgTime(time));
+    });
+免费制作你自己的图文故事
+        console.log(1)
+        
+    
+        console.log("");
+    
+
+                var bottomFlag = false;
+                $(window).scroll(function(){
+                　　var scrollTop = $(this).scrollTop();
+                　　var scrollHeight = $(document).height();
+                　　var windowHeight = $(this).height();
+                　　if(scrollTop + windowHeight >= scrollHeight - 60){
+                        if (!bottomFlag) {
+                            // make some request
+                            $.ajax({
+                                type: "get",
+                                url: "https://www.meipian.cn/app/stat/article_bottom_scroll.php?key=stat:adshow:bottom&operator=meipian&type=",
+                                success: function(res) {
+                                    console.log(res);
+                                },
+                                error : function(res) {
+                                    console.log(res);
+                                }
+                            })
+                        }
+                        bottomFlag = true;
+                　　}
+                });
+            
+
+
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
+
+    console.log('10.47.137.152');
+    function videoPause() {
+        var videos = document.querySelectorAll('video');
+        for (var i=0; i<videos.length; ++i) {
+            videos[i].pause()
+        }
+    }
+
+青玉案 • 西行漫話（2016年8月19日）萬水千山西域路。言五講，囑無數，歷者悉心對接處。春花秋月，怎堪虛度？慎思踐行步。玉門關隘難飛渡？浦江脈脈溫情付，碧海青天漢維敘。縈縈離緒，綿綿情愫，最憶衷情訴。漫話西行（2016年8月23日）浦江西域風光異，人生自應隨心意。放馬疆陲悠然望，當年路上覓綢絲。南鄉子 • 作別滬上（2016年8月28日）秋意涼風起，喚來層雲遮夜空。靜默街燈無語處，朦朧。何由獨思望蒼穹？最憶故人情，曉來作別聽機鳴。今生三年巴楚日，鄭重。莫道浦江流夢中。
+        function preview(i)
+        {
+            var imgList = ["http://static2.ivwen.com/users/489354/3f9b2809f1824001a41ae33f26606c8f.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzNmOWIyODA5ZjE4MjQwMDFhNDFhZTMzZjI2NjA2YzhmLmpwZw==/sign/0e84fdbdd066a2b16a5706ece75fad83.jpg","http://static2.ivwen.com/users/489354/dcacc5e849f34957a8a154b5839590a7.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2RjYWNjNWU4NDlmMzQ5NTdhOGExNTRiNTgzOTU5MGE3LmpwZw==/sign/2e3a1a945b53f250698dada089a15545.jpg","http://static2.ivwen.com/users/489354/f417f2da5d9748d5a97246442de922c4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2Y0MTdmMmRhNWQ5NzQ4ZDVhOTcyNDY0NDJkZTkyMmM0LmpwZw==/sign/80c4308ef65289cc31a956752524dc7a.jpg","http://static2.ivwen.com/users/489354/2033dd44996f48cf9263eab4df3c1aaf.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzIwMzNkZDQ0OTk2ZjQ4Y2Y5MjYzZWFiNGRmM2MxYWFmLmpwZw==/sign/9eb7e617ecbc3e6d1fbf6e8b1fe13f21.jpg","http://static2.ivwen.com/users/489354/1ef32f1e92d240f385f89eb49c783672.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzFlZjMyZjFlOTJkMjQwZjM4NWY4OWViNDljNzgzNjcyLmpwZw==/sign/0aa3bfda2ca4e9fd83cf9ea4b3c03bb1.jpg","http://static2.ivwen.com/users/489354/247cab12f9394a9abb0311bee31cccf5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzI0N2NhYjEyZjkzOTRhOWFiYjAzMTFiZWUzMWNjY2Y1LmpwZw==/sign/395978f344a31e769ca8436c31b7216b.jpg","http://static2.ivwen.com/users/489354/d015107b5c984c44b36626329a3ec092.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2QwMTUxMDdiNWM5ODRjNDRiMzY2MjYzMjlhM2VjMDkyLmpwZw==/sign/c0205875973041272ec1e2faf9113ed2.jpg"];
+            
+            if (window.android)
+            {
+                window.android.previewImage(i, imgList);
+            }
+    
+            var message = {
+                current: imgList[i],
+                urls:  imgList
+            };
+            try
+            {
+                wx.previewImage(message);
+            }
+            catch (err) {}
+            window.webkit.messageHandlers.previewImage.postMessage(message);
+        }
+    	
+
+	阅读 879举报
+    
+        
+            
+        
+        
+            
+                作者：空灵            
+            
+                千江有水千江月，万里无云万里天。            
+        
+        
+    
+
+
+
+    
+        
+        最新评论
+    
+    
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            开心姥爷-唐承弟
+                            1482216600
+                        
+                        
+                            一个字：美
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            空灵
+                            1482168358
+                        
+                        
+                            雨荷过奖了，我当视为温暖的鼓励。八月底从上海开始三年的援疆之旅，行前多有忐忑，偶尔涂鸦。谢谢！
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            幽幽清香
+                            1482155356
+                        
+                        
+                            欣赏！👍
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            烁冉
+                            1482149413
+                        
+                        
+                            赞👍
+                        
+                    
+                
+            
+        
+
+
+    $(".commentLastTime").each(function(index, ele) {
+        var time = $(ele).html();
+        $(ele).html(formatMsgTime(time));
+    });
+免费制作你自己的图文故事
+        console.log(1)
+        
+    
+        console.log("");
+    
+
+                var bottomFlag = false;
+                $(window).scroll(function(){
+                　　var scrollTop = $(this).scrollTop();
+                　　var scrollHeight = $(document).height();
+                　　var windowHeight = $(this).height();
+                　　if(scrollTop + windowHeight >= scrollHeight - 60){
+                        if (!bottomFlag) {
+                            // make some request
+                            $.ajax({
+                                type: "get",
+                                url: "https://www.meipian.cn/app/stat/article_bottom_scroll.php?key=stat:adshow:bottom&operator=meipian&type=",
+                                success: function(res) {
+                                    console.log(res);
+                                },
+                                error : function(res) {
+                                    console.log(res);
+                                }
+                            })
+                        }
+                        bottomFlag = true;
+                　　}
+                });
+            
+
+
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
+
+    console.log('10.47.137.152');
+    function videoPause() {
+        var videos = document.querySelectorAll('video');
+        for (var i=0; i<videos.length; ++i) {
+            videos[i].pause()
+        }
+    }
+
+漫話西行（2016年8月23日）浦江西域風光異，人生自應隨心意。放馬疆陲悠然望，當年路上覓綢絲。南鄉子 • 作別滬上（2016年8月28日）秋意涼風起，喚來層雲遮夜空。靜默街燈無語處，朦朧。何由獨思望蒼穹？最憶故人情，曉來作別聽機鳴。今生三年巴楚日，鄭重。莫道浦江流夢中。
+        function preview(i)
+        {
+            var imgList = ["http://static2.ivwen.com/users/489354/3f9b2809f1824001a41ae33f26606c8f.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzNmOWIyODA5ZjE4MjQwMDFhNDFhZTMzZjI2NjA2YzhmLmpwZw==/sign/0e84fdbdd066a2b16a5706ece75fad83.jpg","http://static2.ivwen.com/users/489354/dcacc5e849f34957a8a154b5839590a7.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2RjYWNjNWU4NDlmMzQ5NTdhOGExNTRiNTgzOTU5MGE3LmpwZw==/sign/2e3a1a945b53f250698dada089a15545.jpg","http://static2.ivwen.com/users/489354/f417f2da5d9748d5a97246442de922c4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2Y0MTdmMmRhNWQ5NzQ4ZDVhOTcyNDY0NDJkZTkyMmM0LmpwZw==/sign/80c4308ef65289cc31a956752524dc7a.jpg","http://static2.ivwen.com/users/489354/2033dd44996f48cf9263eab4df3c1aaf.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzIwMzNkZDQ0OTk2ZjQ4Y2Y5MjYzZWFiNGRmM2MxYWFmLmpwZw==/sign/9eb7e617ecbc3e6d1fbf6e8b1fe13f21.jpg","http://static2.ivwen.com/users/489354/1ef32f1e92d240f385f89eb49c783672.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzFlZjMyZjFlOTJkMjQwZjM4NWY4OWViNDljNzgzNjcyLmpwZw==/sign/0aa3bfda2ca4e9fd83cf9ea4b3c03bb1.jpg","http://static2.ivwen.com/users/489354/247cab12f9394a9abb0311bee31cccf5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzI0N2NhYjEyZjkzOTRhOWFiYjAzMTFiZWUzMWNjY2Y1LmpwZw==/sign/395978f344a31e769ca8436c31b7216b.jpg","http://static2.ivwen.com/users/489354/d015107b5c984c44b36626329a3ec092.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2QwMTUxMDdiNWM5ODRjNDRiMzY2MjYzMjlhM2VjMDkyLmpwZw==/sign/c0205875973041272ec1e2faf9113ed2.jpg"];
+            
+            if (window.android)
+            {
+                window.android.previewImage(i, imgList);
+            }
+    
+            var message = {
+                current: imgList[i],
+                urls:  imgList
+            };
+            try
+            {
+                wx.previewImage(message);
+            }
+            catch (err) {}
+            window.webkit.messageHandlers.previewImage.postMessage(message);
+        }
+    	
+
+	阅读 879举报
+    
+        
+            
+        
+        
+            
+                作者：空灵            
+            
+                千江有水千江月，万里无云万里天。            
+        
+        
+    
+
+
+
+    
+        
+        最新评论
+    
+    
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            开心姥爷-唐承弟
+                            1482216600
+                        
+                        
+                            一个字：美
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            空灵
+                            1482168358
+                        
+                        
+                            雨荷过奖了，我当视为温暖的鼓励。八月底从上海开始三年的援疆之旅，行前多有忐忑，偶尔涂鸦。谢谢！
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            幽幽清香
+                            1482155356
+                        
+                        
+                            欣赏！👍
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            烁冉
+                            1482149413
+                        
+                        
+                            赞👍
+                        
+                    
+                
+            
+        
+
+
+    $(".commentLastTime").each(function(index, ele) {
+        var time = $(ele).html();
+        $(ele).html(formatMsgTime(time));
+    });
+免费制作你自己的图文故事
+        console.log(1)
+        
+    
+        console.log("");
+    
+
+                var bottomFlag = false;
+                $(window).scroll(function(){
+                　　var scrollTop = $(this).scrollTop();
+                　　var scrollHeight = $(document).height();
+                　　var windowHeight = $(this).height();
+                　　if(scrollTop + windowHeight >= scrollHeight - 60){
+                        if (!bottomFlag) {
+                            // make some request
+                            $.ajax({
+                                type: "get",
+                                url: "https://www.meipian.cn/app/stat/article_bottom_scroll.php?key=stat:adshow:bottom&operator=meipian&type=",
+                                success: function(res) {
+                                    console.log(res);
+                                },
+                                error : function(res) {
+                                    console.log(res);
+                                }
+                            })
+                        }
+                        bottomFlag = true;
+                　　}
+                });
+            
+
+
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
+
+    console.log('10.47.137.152');
+    function videoPause() {
+        var videos = document.querySelectorAll('video');
+        for (var i=0; i<videos.length; ++i) {
+            videos[i].pause()
+        }
+    }
+
+南鄉子 • 作別滬上（2016年8月28日）秋意涼風起，喚來層雲遮夜空。靜默街燈無語處，朦朧。何由獨思望蒼穹？最憶故人情，曉來作別聽機鳴。今生三年巴楚日，鄭重。莫道浦江流夢中。
+        function preview(i)
+        {
+            var imgList = ["http://static2.ivwen.com/users/489354/3f9b2809f1824001a41ae33f26606c8f.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzNmOWIyODA5ZjE4MjQwMDFhNDFhZTMzZjI2NjA2YzhmLmpwZw==/sign/0e84fdbdd066a2b16a5706ece75fad83.jpg","http://static2.ivwen.com/users/489354/dcacc5e849f34957a8a154b5839590a7.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2RjYWNjNWU4NDlmMzQ5NTdhOGExNTRiNTgzOTU5MGE3LmpwZw==/sign/2e3a1a945b53f250698dada089a15545.jpg","http://static2.ivwen.com/users/489354/f417f2da5d9748d5a97246442de922c4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2Y0MTdmMmRhNWQ5NzQ4ZDVhOTcyNDY0NDJkZTkyMmM0LmpwZw==/sign/80c4308ef65289cc31a956752524dc7a.jpg","http://static2.ivwen.com/users/489354/2033dd44996f48cf9263eab4df3c1aaf.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzIwMzNkZDQ0OTk2ZjQ4Y2Y5MjYzZWFiNGRmM2MxYWFmLmpwZw==/sign/9eb7e617ecbc3e6d1fbf6e8b1fe13f21.jpg","http://static2.ivwen.com/users/489354/1ef32f1e92d240f385f89eb49c783672.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzFlZjMyZjFlOTJkMjQwZjM4NWY4OWViNDljNzgzNjcyLmpwZw==/sign/0aa3bfda2ca4e9fd83cf9ea4b3c03bb1.jpg","http://static2.ivwen.com/users/489354/247cab12f9394a9abb0311bee31cccf5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0LzI0N2NhYjEyZjkzOTRhOWFiYjAzMTFiZWUzMWNjY2Y1LmpwZw==/sign/395978f344a31e769ca8436c31b7216b.jpg","http://static2.ivwen.com/users/489354/d015107b5c984c44b36626329a3ec092.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvNDg5MzU0L2QwMTUxMDdiNWM5ODRjNDRiMzY2MjYzMjlhM2VjMDkyLmpwZw==/sign/c0205875973041272ec1e2faf9113ed2.jpg"];
+            
+            if (window.android)
+            {
+                window.android.previewImage(i, imgList);
+            }
+    
+            var message = {
+                current: imgList[i],
+                urls:  imgList
+            };
+            try
+            {
+                wx.previewImage(message);
+            }
+            catch (err) {}
+            window.webkit.messageHandlers.previewImage.postMessage(message);
+        }
+    	
+
+	阅读 879举报
+    
+        
+            
+        
+        
+            
+                作者：空灵            
+            
+                千江有水千江月，万里无云万里天。            
+        
+        
+    
+
+
+
+    
+        
+        最新评论
+    
+    
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            开心姥爷-唐承弟
+                            1482216600
+                        
+                        
+                            一个字：美
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            空灵
+                            1482168358
+                        
+                        
+                            雨荷过奖了，我当视为温暖的鼓励。八月底从上海开始三年的援疆之旅，行前多有忐忑，偶尔涂鸦。谢谢！
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            幽幽清香
+                            1482155356
+                        
+                        
+                            欣赏！👍
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            烁冉
+                            1482149413
+                        
+                        
+                            赞👍
+                        
+                    
+                
+            
+        
+
+
+    $(".commentLastTime").each(function(index, ele) {
+        var time = $(ele).html();
+        $(ele).html(formatMsgTime(time));
+    });
+免费制作你自己的图文故事
+        console.log(1)
+        
+    
+        console.log("");
+    
+
+                var bottomFlag = false;
+                $(window).scroll(function(){
+                　　var scrollTop = $(this).scrollTop();
+                　　var scrollHeight = $(document).height();
+                　　var windowHeight = $(this).height();
+                　　if(scrollTop + windowHeight >= scrollHeight - 60){
+                        if (!bottomFlag) {
+                            // make some request
+                            $.ajax({
+                                type: "get",
+                                url: "https://www.meipian.cn/app/stat/article_bottom_scroll.php?key=stat:adshow:bottom&operator=meipian&type=",
+                                success: function(res) {
+                                    console.log(res);
+                                },
+                                error : function(res) {
+                                    console.log(res);
+                                }
+                            })
+                        }
+                        bottomFlag = true;
+                　　}
+                });
+            
+
+
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
+
+    console.log('10.47.137.152');
+    function videoPause() {
+        var videos = document.querySelectorAll('video');
+        for (var i=0; i<videos.length; ++i) {
+            videos[i].pause()
+        }
+    }
+

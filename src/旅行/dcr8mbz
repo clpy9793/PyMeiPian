@@ -1,0 +1,25 @@
+2017年春节休假四周，我们来到悉尼休闲团聚，又重游了许多著名景点，海边走走，海湾转转，且游且乐摄。2017年春节休假四周，我们来到悉尼休闲团聚，又重游了许多著名景点，海边走走，海湾转转，且游且乐摄。享受航班直航的便捷，从寒冬进入盛夏，期待全家人团聚。悉尼的交通非常方便，有地铁火车、公共大巴、的士和轮渡船舶，四通八达，有交通卡在手乘车极为便捷。地铁月台 悉尼歌剧院（Sydney Opera House） 悉尼歌剧院（Sydney Opera House） 悉尼歌剧院广场 悉尼歌剧院的中国年宣传活动 夜幕下的悉尼歌剧院，显现中国红。远眺海湾中的悉尼大桥和CITY.......重游悉尼海港和歌剧院，远眺海港大桥重游悉尼海港和歌剧院，远眺海港大桥Overlooking Sydney CITY悉尼CITY悉尼海湾夕阳下的悉尼港湾大桥夕阳下的悉尼港湾大桥悉尼海港悉尼海港200年历史的悉尼皇家植物园 Cronulla Beach Cronulla BeachCronulla  海湾浪漫COMO海湾Cronulla 海湾悉尼茶花园海湾。悉尼海湾很多，随处都是景色......1878年的Como  Hotel，一百三十九年历史啦 Cronulla Beach。清晨，我们5点起床，从家里乘车10分钟到达Cronulla海湾，观赏海上日出，今晨日出美轮美奂，色彩艳丽，奇光异彩，真是人品好，观美景，乐哉悠哉......... Cronulla Beach。清晨，我们5点起床，从家里乘车10分钟到达Cronulla海湾，观赏海上日出，今晨日出美轮美奂，色彩艳丽，奇光异彩，真是人品好，观美景，乐哉悠哉.........红日出海，霞光万斛，朝阳喷彩，千里熔金。日出，表明新的一天开始，充满希望，充满光明！朝晖下的画家……朝阳对影成四人……Cronulla Beach  海湾日出视频
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+Cronulla Beach  海湾日出视频晨练的澳洲人澳洲动物宝贝考拉澳洲动物宝贝袋鼠澳洲动物宝贝鸸鹋wombat  袋熊澳洲动物宝贝小企鹅骆驼与海洋……QUEEN  VICTORIA  BUILDING  (QVB) 悉尼维多利亚女王大厦。QVB座落于悉尼市中心最繁华的乔治大街上，旁边是悉尼市政厅和圣.安德鲁教堂。著名时装设计大师皮尔.卡丹赞美它是“世界上最美丽的购物中心”。对澳洲人来说，QVB既是购物中心，也是休闲的好去处；又是历史的见证，更是澳洲人的骄傲。大厅的彩色公鸡庆祝中国年市政厅迎丁酉鸡年，一家人在悉尼提前充分准备，在家中团圆欢聚，丰盛的海鲜大餐年夜饭，欢声笑语，压岁钱红包，喜气洋洋。甚是欢喜欣慰。迎丁酉鸡年，一家人在悉尼提前充分准备，在家中团圆欢聚，丰盛的海鲜大餐年夜饭，欢声笑语，压岁钱红包，喜气洋洋。甚是欢喜欣慰。团圆欢聚年夜饭，鸡年大吉好事成。祝福亲们 2017 丁酉鸡年快乐！祝福亲们 2017 丁酉鸡年快乐！年年有余（鱼）大肉蟹大红虾Western-style food洋餐Pavlova. (俄)帕夫洛娃，奶油蛋白甜饼，这是一个有故事的糕点😊元宵节之夜，孩子们带我们到海湾大桥餐厅，品尝海鲜大餐，共享全家团圆。凭窗观景，品尝咖啡。过年请进家中的澳洲鲜花孩子们情人节的哥伦比亚玫瑰花……Miranda Westfield shopping Center 是一家大型综合的购物中心，有着107,000平方米的购物空间，上百家店铺提供包括购物饮食等服务，澳洲著名的电影院线Event也在这里有着一席之地，并且Westfield还有着充足的停车场地吸引了大量来自SutherlandShire，St George区乃至Wollongong区的购物人群。这里的Westfield，也曾经是南半球最大的购物商场。留影纪念家边的花园窗外的云家边的艺术馆窗外的夕阳晚霞家边的夕霞悉尼休假，风光掠影。悉尼休假，风光乐摄

@@ -1,0 +1,25 @@
+我的名字叫～菲菲出生不祥  大约在夏季男生长像俊美天真无邪来毛老师家一年了小主人很爱我❤️给我卖了饮水机、玩具、猫砂和床像娃娃一样睡觉小精灵步履轻盈耶！咋个莫得水呢？秤一下长了几斤喜欢守嘴还喜欢座在微波炉上看主人做饭猜猜主人给我做啥子饭吃更喜欢卧在主人的腿上也有不雅动作和照片最烦洗澡！
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+最烦洗澡！不管人家同不同意紧跟主人  亦步亦趋每天都要瞭望邻居家的鸡左👀右👀想想怎么美餐一顿错没有？！忍痛挨鞭照范不误！我也有生病的时候滴水不粘  不看一眼现在好了有乌龟陪着我玩有花儿为我妆扮我无忧无虑有吃有喝比三毛还快乐😀😀😀我会用"手"开门讨厌得很……又喊人家摆Ps目前的政绩是：逮到两个老鼠和四只麻雀👍👍👍谢谢菲猫给毛老师家带来的安然、欣然、愉悦和牵挂……摄影  阿贝    萝卜     编辑  萝卜策划  萝卜制作  萝卜             拍摄时间  2017-4摄影  阿贝    萝卜     编辑  萝卜策划  萝卜制作  萝卜             拍摄时间  2017-4

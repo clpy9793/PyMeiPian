@@ -1,0 +1,25 @@
+回顾2016，真的是非常充实的一年，从年头到年末，几乎就没有停下过脚步。回顾2016，真的是非常充实的一年，从年头到年末，几乎就没有停下过脚步。进过山下过海领略大山的雄伟感受大海的浩瀚拍到了五指山的红叶也记录了西沙的海浪见识了大海的平静和狂躁眩观日升月落晕赏风起云涌邂逅七彩祥云和耶稣光与彩虹并肩偶遇海鸥抢食还有海豚迁徙
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+还有海豚迁徙从不同角度欣赏海岛之美最爽的还是渔获颇丰地质佬工作虽苦，但要学会苦中作。用相片送走2016，希望2017还能拍到更多美景！地质佬工作虽苦，但要学会苦中作。用相片送走2016，希望2017还能拍到更多美景！

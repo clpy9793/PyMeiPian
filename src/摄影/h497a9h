@@ -1,0 +1,24 @@
+【作者寄语】        重要提醒：请一定开着音乐欣赏本组作品！！        因为每一张图片上留的歌词和音乐都是费心思搭配好的～所以请大家放慢节奏，请等歌曲前奏部分结束时浏览下一张图片。       个人还是比较喜欢这首许嵩的惊鸿一面，感觉很有古风的味道，片尾还配了个花絮小视频，不过录的时候没注意，抖得厉害，见谅。摄影/后期：千夜模特：天佑作者微信：songtianqi311【作者寄语】        重要提醒：请一定开着音乐欣赏本组作品！！        因为每一张图片上留的歌词和音乐都是费心思搭配好的～所以请大家放慢节奏，请等歌曲前奏部分结束时浏览下一张图片。       个人还是比较喜欢这首许嵩的惊鸿一面，感觉很有古风的味道，片尾还配了个花絮小视频，不过录的时候没注意，抖得厉害，见谅。摄影/后期：千夜模特：天佑作者微信：songtianqi311翻手为云覆手为雨金盆洗手止风雨不恋红尘却难舍回忆每一段都有你年少初遇常在我心，多年不减你深情。江山如画又怎能比拟？你送我的风景。。。花下闻瑶琴起舞和一曲仿佛映当年，翩若惊鸿影。谁三言两语撩拨了情意谁一颦一笑摇曳了星云？ 纸扇藏伏笔玄机诗文里紫烟燃心语留香候人寻史书列豪杰功过有几许我今生何求惟你。。。。
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });

@@ -1,0 +1,171 @@
+摄影：Max出镜：阿佳妮           汤圆助理：猫猫花儿摄影工作室没有谁愿意输，有时，我们只顾着埋头赶路，却丢失了很多东西。人生，应该经常停下来看看，不仅仅看我们要追赶什么，还要看看需要捡回什么。人生并不是一个战场，一定要比个输赢。人生也不是一个跑道，每个人必须要去参与。人生不是你进入了社会就一定要尔虞我诈，人生是可以做观众的。对于三十岁以后的人来说，十年八年不过是指缝间的事。而对于年轻人而言，三年五年就可以是一生一世。我一直喜欢下午的阳光，它让我相信这个世界任何事情都会有转机。如果你认识从前的我那么你就会原谅现在的我笑全世界便与你同声笑哭你便独自哭假如生活欺骗了你，不要悲伤，不要心急！忧郁的日子里须要镇静：相信吧，快乐的日子将会来临！心儿永远向往着未来；现在却常是忧郁。一切都是瞬息，一切都将会过去；而那过去了的，就会成为亲切的怀恋！
+        function preview(i)
+        {
+            var imgList = ["http://static2.ivwen.com/users/3731440/11c82a70f4ec41419e7ef9b7fa3010cc.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8xMWM4MmE3MGY0ZWM0MTQxOWU3ZWY5YjdmYTMwMTBjYy5qcGc=/sign/f2cc84b4b80e4e9a51f626062263d443.jpg","http://static2.ivwen.com/users/3731440/0d82d848c4954fb291f2de4185d236e0.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8wZDgyZDg0OGM0OTU0ZmIyOTFmMmRlNDE4NWQyMzZlMC5qcGc=/sign/0985ddbb9c7de4360285320f5328c6b3.jpg","http://static2.ivwen.com/users/3731440/e4eeb17ecb894cadab099c6cfe077ee5.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC9lNGVlYjE3ZWNiODk0Y2FkYWIwOTljNmNmZTA3N2VlNS5qcGc=/sign/084398f7ffab9dee7a8161d8b0c18025.jpg","http://static2.ivwen.com/users/3731440/3a4767809fdb408385c1a4dd5d7e0560.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8zYTQ3Njc4MDlmZGI0MDgzODVjMWE0ZGQ1ZDdlMDU2MC5qcGc=/sign/053be097aa18650a4a49694647e20b8b.jpg","http://static2.ivwen.com/users/3731440/43253a43707042e6b78fcae42b0940e3.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC80MzI1M2E0MzcwNzA0MmU2Yjc4ZmNhZTQyYjA5NDBlMy5qcGc=/sign/800c8e6daa54a7318b75bd9751fb2796.jpg","http://static2.ivwen.com/users/3731440/5e0e19e37ff344dbb4d0ad467e66c169.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC81ZTBlMTllMzdmZjM0NGRiYjRkMGFkNDY3ZTY2YzE2OS5qcGc=/sign/35701d5b790f22b358a4b3da07e2e721.jpg","http://static2.ivwen.com/users/3731440/61714e27ea9e4a1a827f93d9db6d85d0.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC82MTcxNGUyN2VhOWU0YTFhODI3ZjkzZDlkYjZkODVkMC5qcGc=/sign/60b51a40ad11f18c6486308ec72011c4.jpg","http://static2.ivwen.com/users/3731440/2030c11a25ac4d54ab0820adc28d0f7a.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8yMDMwYzExYTI1YWM0ZDU0YWIwODIwYWRjMjhkMGY3YS5qcGc=/sign/02349abefa9888dde942dcf79be3871c.jpg","http://static2.ivwen.com/users/3731440/ba3514e3986b4483ba17ad5c9d150f58.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC9iYTM1MTRlMzk4NmI0NDgzYmExN2FkNWM5ZDE1MGY1OC5qcGc=/sign/313ce010d1689e7ce9c2e976dce2fd49.jpg","http://static2.ivwen.com/users/3731440/d448a63178f0458082a074739c7d2f9b.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC9kNDQ4YTYzMTc4ZjA0NTgwODJhMDc0NzM5YzdkMmY5Yi5qcGc=/sign/d4437661983cf2f8fe88c4efb6c163a6.jpg","http://static2.ivwen.com/users/3731440/8d2b824e09b34af2a9dedfbb25073fd1.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC84ZDJiODI0ZTA5YjM0YWYyYTlkZWRmYmIyNTA3M2ZkMS5qcGc=/sign/bd474d5a9140579e3bb37369adbee6a6.jpg","http://static2.ivwen.com/users/3731440/668f5c0821a3411b975aa20ae837f522.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC82NjhmNWMwODIxYTM0MTFiOTc1YWEyMGFlODM3ZjUyMi5qcGc=/sign/6fa8010e4b7ec8298874178870c96606.jpg","http://static2.ivwen.com/users/3731440/55a2302146374d169a900979915c4761.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC81NWEyMzAyMTQ2Mzc0ZDE2OWE5MDA5Nzk5MTVjNDc2MS5qcGc=/sign/3b211df1e06510ab8bcaab8ffeab4f0c.jpg","http://static2.ivwen.com/users/3731440/058e105a4f454a21b7ab0d71f4614cc0.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8wNThlMTA1YTRmNDU0YTIxYjdhYjBkNzFmNDYxNGNjMC5qcGc=/sign/e92b708e0c3bc6bdb227b23bdcc1bb57.jpg","http://static2.ivwen.com/users/3731440/7e349ae76fc44f9f8839280c10b6d9f4.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC83ZTM0OWFlNzZmYzQ0ZjlmODgzOTI4MGMxMGI2ZDlmNC5qcGc=/sign/ef93d63b766f5190f63af61f9e1ca6f2.jpg","http://static2.ivwen.com/users/3731440/0c1580f49a7643f69c233098fb82cf7d.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8wYzE1ODBmNDlhNzY0M2Y2OWMyMzMwOThmYjgyY2Y3ZC5qcGc=/sign/d2b76061ede32b421f9dcf4cd9a53af7.jpg","http://static2.ivwen.com/users/3731440/1a3f123c2c6c46d5ac49c4d6507744e8.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8xYTNmMTIzYzJjNmM0NmQ1YWM0OWM0ZDY1MDc3NDRlOC5qcGc=/sign/78e6a249909a6ae720330c4329d6edc9.jpg","http://static2.ivwen.com/users/3731440/1f326a573034413cbe882373e705c89b.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8xZjMyNmE1NzMwMzQ0MTNjYmU4ODIzNzNlNzA1Yzg5Yi5qcGc=/sign/b6624bd26c05451189af4c6e52ed36ee.jpg","http://static2.ivwen.com/users/3731440/ccadd54bd48b4014affbe3946b6ef5be.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC9jY2FkZDU0YmQ0OGI0MDE0YWZmYmUzOTQ2YjZlZjViZS5qcGc=/sign/4f0b46db64a215cca1690e1e92effaa5.jpg","http://static2.ivwen.com/users/3731440/1244338e3c9b463d8c48383079e93d52.jpg?meipian-raw/bucket/ivwen/key/dXNlcnMvMzczMTQ0MC8xMjQ0MzM4ZTNjOWI0NjNkOGM0ODM4MzA3OWU5M2Q1Mi5qcGc=/sign/f492b0ebd8b6eb4ccbffa27345d257e7.jpg"];
+            
+            if (window.android)
+            {
+                window.android.previewImage(i, imgList);
+            }
+    
+            var message = {
+                current: imgList[i],
+                urls:  imgList
+            };
+            try
+            {
+                wx.previewImage(message);
+            }
+            catch (err) {}
+            window.webkit.messageHandlers.previewImage.postMessage(message);
+        }
+    	
+
+阅读 3454举报
+    
+        
+            
+        
+        
+            
+                作者：Hero            
+            
+                简静自持，珍贵永远。            
+        
+        
+    
+
+
+
+    
+        
+        最新评论
+    
+    
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            玉笛飛聲
+                            1481093911
+                        
+                        
+                            靓
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            🍁李根
+                            1480972860
+                        
+                        
+                            欣赏美文美景美拍，美更漂亮。👍🌹🌹
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            炉铁---------吴
+                            1480913874
+                        
+                        
+                            淡雅
+                        
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            康鼎香金花茶
+                            1480850677
+                        
+                        
+                            文字功底还可以提高一些
+                        
+                    
+                
+            
+        
+
+
+    $(".commentLastTime").each(function(index, ele) {
+        var time = $(ele).html();
+        $(ele).html(formatMsgTime(time));
+    });
+免费制作你自己的图文故事
+        console.log(1)
+        
+    
+        console.log("");
+    
+
+                var bottomFlag = false;
+                $(window).scroll(function(){
+                　　var scrollTop = $(this).scrollTop();
+                　　var scrollHeight = $(document).height();
+                　　var windowHeight = $(this).height();
+                　　if(scrollTop + windowHeight >= scrollHeight - 60){
+                        if (!bottomFlag) {
+                            // make some request
+                            $.ajax({
+                                type: "get",
+                                url: "https://www.meipian.cn/app/stat/article_bottom_scroll.php?key=stat:adshow:bottom&operator=meipian&type=",
+                                success: function(res) {
+                                    console.log(res);
+                                },
+                                error : function(res) {
+                                    console.log(res);
+                                }
+                            })
+                        }
+                        bottomFlag = true;
+                　　}
+                });
+            
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+
+
+    console.log('10.30.249.63');
+    function videoPause() {
+        var videos = document.querySelectorAll('video');
+        for (var i=0; i<videos.length; ++i) {
+            videos[i].pause()
+        }
+    }
+

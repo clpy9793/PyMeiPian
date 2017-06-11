@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+初三开业那天，意外发现店里二楼的大玻璃窗前结满了美丽神奇的冰窗花。惊喜震撼之于，我立即取来相机，走动观察框取画面，对准焦距，在现实与这梦幻般的玻璃窗前重叠的那一刻，按下了快门……初三开业那天，意外发现店里二楼的大玻璃窗前结满了美丽神奇的冰窗花。惊喜震撼之于，我立即取来相机，走动观察框取画面，对准焦距，在现实与这梦幻般的玻璃窗前重叠的那一刻，按下了快门……可有人知道玻璃窗前何以生出如此美丽的孔雀翎…？在玻璃画板前，感谢和你单独接触的幸福…灯光撒在每一棵水珠上，化成了金银…洒下珠宝无数…如镶嵌珠宝的手镯有个地方断掉，失落了…幽深的树林，不知埋藏了多少故事…玻璃上开花！是奇迹！还是？因正午阳光的照射而悄然的化泪而去，燃尽了尘世的感觉，无言无语……繁星般的珠宝，你是绝顶的美丽…！今天你是我的收获，感谢一年一度的相遇…

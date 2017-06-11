@@ -1,0 +1,25 @@
+云南大理苍山下云南大理苍山下
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+云南大理苍山上云南大理苍山上十年摄录工作室，地点:云南大理。微信号shinian15894569805摄影指导:王艺轩    模特:王艺轩十年摄录工作室，地点:云南大理。微信号shinian15894569805摄影指导:王艺轩    模特:王艺轩

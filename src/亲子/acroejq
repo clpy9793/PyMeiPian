@@ -1,0 +1,25 @@
+2014年3月15日世界上的阳光灿烂明媚！彤彤我的宝贝出生了！这小脸蛋胖的哟😄吃到的第一口不是妈妈的奶水😉是胶皮奶嘴😩这个时候只能躺着😊这是两个月了吧！可以东张西望了我的小手我的小脚百天照片我出生一百天喽😊这是要拿到哪里去😊？把我卖掉吗😈再看我😀我啃书哎呦！不错哟百天照片几个月大了！在姥姥家欺负大哥和妈妈玩耍不到1周的我和奶奶晒太阳😊在姥姥家一周岁多了，奶奶抱我回老家玩！真开心2015年大概是12月份去姨姥姥家，爸爸带我摘树叶在奶奶的后背上好温暖，慈祥！自我陶醉啦😄3岁了！和哥哥在天亦商厦爸爸放假了！在家里陪我自拍哥哥带我玩淘气堡太刺激了😁回来就感冒了😔我会自己开小车咯😄淑女不→_→二姥爷家的小羊真可爱😊我喜欢它们！我要把它们带回家😊我就要这只！不给我就不走了😁奶奶家，自己玩的也开心😁2016年国庆节在丰润大姑家！曹雪芹主题公园全家人一起爬山姑妈和奶奶要去泰国旅行⊙▽⊙姑妈和奶奶泰国旅游的奶奶真漂亮两周10个月和爸爸学习擀饺子皮！真好玩😊2016年12月31日上午
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+两周10个月和爸爸学习擀饺子皮！真好玩😊2016年12月31日上午

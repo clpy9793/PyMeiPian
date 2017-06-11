@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+我从远方驶来，一路是剔透的钻石，晶莹的浪花，这是属于我的舞蹈，请和我一起开始吧！是冰上的芭蕾亦或是优雅的华尔兹是仗剑江湖？亦或是对阵三军是华山论剑亦或是浮空仗剑是合十的虔诚是滑行的自在亦或是笑魇如花！蓝天是全世界最好的背景，河流是大自然赐予的舞台，摇弋的芦苇，晶莹的冰雪，抵不过此番青春年华！可以是欢笑可以是忧伤可以是侧影可以是特写可以是正面甚至可以是背影我就在这里笑魇如花，不言不语生命因为有你，变得美好背负我前行的你陪伴我成长的你一起微笑的我们一起难过的我们甚至是你们你们你们还是你们这里是古道瘦马等着你夕阳西下一路走来从不停歇换行装挽袖囊添柴点火饿很饿非常饿终于吃饭了，大锅饭的味道格外与众不同顺道打理一下形象摆个pose吧没什么比青春更美丽的花朵天空蔚蓝如镜，没有一丝云朵群山层峦叠嶂，如同母亲的怀抱谁说过的，看风景的人，在别人眼中，也成为了一道风景感谢有你，你们，我们一路走来，一路走过！

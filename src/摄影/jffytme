@@ -1,0 +1,24 @@
+　　初夏的季节，空气中总散发着迷人的风采，一大片一大片的青绿村托着姹紫嫣红的芬芳，就如一幅美丽的风景画，柔和而迷人。随意望去，总有很多欣喜在心里泛起……　　初夏的季节，空气中总散发着迷人的风采，一大片一大片的青绿村托着姹紫嫣红的芬芳，就如一幅美丽的风景画，柔和而迷人。随意望去，总有很多欣喜在心里泛起……设备：华为p9puls，手机三脚架，蓝牙遥控，耳机线。后期：snapseed拍摄地点：六安中央森林公园，月亮岛，新安大桥水域。设备：华为p9puls，手机三脚架，蓝牙遥控，耳机线。后期：snapseed拍摄地点：六安中央森林公园，月亮岛，新安大桥水域。　　附一段月亮岛小视频，观看前请关闭美篇的日志音乐。　　附一段月亮岛小视频，观看前请关闭美篇的日志音乐。
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });

@@ -1,0 +1,24 @@
+        蒙自南湖位于云南省蒙自市老城区南部，故名"南湖"。为雨水汇积而成，旧名草湖、草陂。明代开辟为堰池，并在湖中堆3座土山，分别名为蓬莱、方丈、瀛洲岛，成为文人雅士会集之地，又称学海。云南著名的过桥米线传说就起源于此，是人们游览休闲的好去处。                 （全部图片都是手机拍摄）        蒙自南湖位于云南省蒙自市老城区南部，故名"南湖"。为雨水汇积而成，旧名草湖、草陂。明代开辟为堰池，并在湖中堆3座土山，分别名为蓬莱、方丈、瀛洲岛，成为文人雅士会集之地，又称学海。云南著名的过桥米线传说就起源于此，是人们游览休闲的好去处。                 （全部图片都是手机拍摄）
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });

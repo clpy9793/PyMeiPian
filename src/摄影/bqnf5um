@@ -1,0 +1,25 @@
+        色达，过去好几年中，每每错过的地方。不曾想，去年底，因为工作派遣，到色达一呆就是三个月。三个月，对色达，已从陌生，到熟悉，再到融入。现仅以图片，简单记录短暂工作过，生活过，感受过的色达。        色达，过去好几年中，每每错过的地方。不曾想，去年底，因为工作派遣，到色达一呆就是三个月。三个月，对色达，已从陌生，到熟悉，再到融入。现仅以图片，简单记录短暂工作过，生活过，感受过的色达。喇荣五明佛学院天葬台（特别不愿意拍照的一个地方，仅以翱翔秃鹫替代了）丹青药王神山东方胜者东嘎显密成就院（俗称东嘎寺）德勒湖（海拔4517米，面积实在很小）果根塘湿地（水面结冰后，成了我们这群大龄“儿童”撒欢的溜冰场）邓曲登佛塔——降魔塔约若寺色达县城（分别爬上东、西两个山头拍的全景）格萨尔艺术中心街景和大多数高原小城差不多，就放几张我的卧室窗景色达，最难忘的日出喇荣五明佛学院，最难忘的梵音
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+喇荣五明佛学院，最难忘的梵音

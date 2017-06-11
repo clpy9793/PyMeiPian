@@ -1,0 +1,25 @@
+
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+舞动青春轨迹舞动青春轨迹【未加思索】随意构图🎆只想还原自然👀美的瞬间。😍【淑柔轻远】微笑😀是每个美好时光的开始，今天你微笑了么？【纯静运动】健康运动带动你的气场，今天你运动了么🙏！【点滴留忆】年轻时光犹如明媚的阳光，晶莹剔透的晨露，闪着钻石💎般的光芒❇。【春意色彩】含苞🌹待放，春意🍀盎然，从春走到夏🌻年年往复。你我错过了多少美丽🎀时光。【凝视定格】瞬间📷定格，留存长久回忆。一个🤗微笑，一滴💧眼泪，一个💃动作，一滴😅香汗，一个💑拥抱，保存你我青春💝回忆。【舞动青春】年青时光浪漫💖展现，舞动的轨迹寻找青春的旋律。动起来吧！我们💗依旧年轻！【黄绿象征】黄～阳光花园，绿～春意晨光。足球，团结一致。🇨🇳

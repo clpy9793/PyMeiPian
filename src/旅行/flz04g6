@@ -1,0 +1,25 @@
+       阳春三月，春雨绵绵，武汉大学校园和东湖樱花园里的樱花怒放，游人如织，成为一景。翠鸟儿戏武樱武汉东湖樱花园夜景辉煌东湖樱花园里群樱荟爱美少女赏花来，此时樱花害羞时。武大赏樱动图
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+武大赏樱动图

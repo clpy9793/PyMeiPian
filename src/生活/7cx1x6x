@@ -1,0 +1,25 @@
+瞧，二哈的眼神。（2017年元月）大爪爪。等着洗漱。（2016年）拒决任何受贿。准备泡脚，消除一天的疲劳。我的腿短，你信吗？睡觉太舒服了。陪着嘛嘛一起练琴。我象兔子吗？我会变成七彩猫。我每天看铲屎的练琴我喜欢古筝的旋律我也要学古筝，你教教我吧。我用身体弹古筝。我每天听古筝。我是一只爱运动的猫
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+我是一只爱运动的猫排队等洗澡等得这么久，想睡觉了。不要看，不要看，睡觉会流哈喇子。要保持形象，不要看我的脸。我俩是兄妹。我是地趴猫。我是男孩子，睡觉可以不文明，我喜欢翻着肚皮睡。累了，爷也靠着坐一坐。铲屎的，给爷来支烟。你为什么一直着我？小妞，过来伺候一下大爷。我是美女。晒晒太阳，伸伸懒腰，舒服。什么时候可以娶老婆？老妹，地上有动静。咦，我的蛋蛋哪去了？你看见我的蛋蛋了吗？不想那么多了，喝点水吧！╭(╯^╰)╮，老大把水都喝了。蛋蛋没了，我怎么娶老婆？两只二B青年。娶只小羊做老婆吧，困！练瑜咖。

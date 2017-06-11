@@ -1,0 +1,25 @@
+     这就是此时的醉美大伊犁,新源吐尔根杏花谷。很美！宛若一抹春天的灿烂和恬静，如同童话般的美妙、久久飘香和精彩。春去春又回、春光无限好。带着春天的意境，打开这组航拍伊犁和高清组图仿佛突然就把伊犁美丽的春天送到了你我的面前……图文编辑~火焰视频上传~火焰     这就是此时的醉美大伊犁,新源吐尔根杏花谷。很美！宛若一抹春天的灿烂和恬静，如同童话般的美妙、久久飘香和精彩。春去春又回、春光无限好。带着春天的意境，打开这组航拍伊犁和高清组图仿佛突然就把伊犁美丽的春天送到了你我的面前……图文编辑~火焰视频上传~火焰
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+图文编辑~火焰视频上传~火焰图文编辑~火焰视频上传~火焰

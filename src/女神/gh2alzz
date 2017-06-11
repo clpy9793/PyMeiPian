@@ -1,0 +1,25 @@
+一袭青衣，染就一树芳华两袖月光，诉说绝世风雅 行走在芳菲的流年里身着禅衣的女子永远是一道靓丽的风景禅舞现代舞即兴演绎<三生三世 凉凉>
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+禅舞现代舞即兴演绎<三生三世 凉凉>一切随性一切随缘一切随喜随心借一丝禅意让身心灵舞动放松一颦一笑古典文雅舞动倾心禅心禅念一云身舞美舞妙度金身飘荡游离如水云韵达乾坤通灵真—— ｛渡•合一 禅舞文化｝天舞和田好导师受邀演绎云水禅心为古都郑州做代言为弘扬中国传统文化献出一份力量好友书画家:若农 作品人物: 天舞&田好封面摄影后期: 潇光人像摄影: 胡晓冰&石小生地点: 郑州市博物馆特别感谢<郑州服饰文化协会><旗袍会><渡•合一 心灵舞坊>如果你喜欢这篇文章请留下你的足迹留下你的美文我在这里等你......

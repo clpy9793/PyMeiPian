@@ -1,0 +1,121 @@
+巴哈马（Bahamas）是大西洋西侧，美国佛罗里达州以东的一个岛国。这里海水很浅。巴哈马的岛屿其实就是一个个的沙洲，地势平坦，风景优美。它是美国富人的度假和避税天堂。巴哈马社会祥和稳定，国民诚实安逸，消费相当昂贵，岛与岛之间的交通只能靠飞机，渡轮和私人游艇。我们的行程先到迈阿密自驾去探寻那洒落在加勒比海上的一串钥匙（Key West），再前往巴哈马首都拿骚（Nassau）的天堂岛（Paradise Island），接下来去大巴哈马岛（Grand Bahamas）上的自由港（Freeport），最后乘船返回迈阿密以北的 Fort Lauderdale。我们的行程先到迈阿密自驾去探寻那洒落在加勒比海上的一串钥匙（Key West），再前往巴哈马首都拿骚（Nassau）的天堂岛（Paradise Island），接下来去大巴哈马岛（Grand Bahamas）上的自由港（Freeport），最后乘船返回迈阿密以北的 Fort Lauderdale。迈阿密-Key West高速公路把佛罗里达最南端的一串岛屿用桥梁连接起来，其中最长的海上大桥有七英里长。现在这些工程已经不算什么，但是在当时可是需要相当的技术和勇气的。沿途岛屿的名称都叫不同的钥匙，直到最西头的那一把Key West。迈阿密-Key West高速公路把佛罗里达最南端的一串岛屿用桥梁连接起来，其中最长的海上大桥有七英里长。现在这些工程已经不算什么，但是在当时可是需要相当的技术和勇气的。沿途岛屿的名称都叫不同的钥匙，直到最西头的那一把Key West。飞往巴哈马飞往巴哈马天堂岛-亚特兰提斯（Atlantis）天堂岛是巴哈马首都拿骚（Nassau）北边的一个岛屿，与拿骚有大桥相连。我们直接略过拿骚前往天堂岛。天堂岛上的Atlantis是我见过最大的海滨度假村。它有五个主要的宾馆大楼，底部全面连通，集购物，会议，博彩，水族馆于一体，室外有高大上的水上乐园，数不清的游泳池，一个海湾和三个海滩。水族馆直接与大海相通，还可以浮潜观鱼。天堂岛-亚特兰提斯（Atlantis）天堂岛是巴哈马首都拿骚（Nassau）北边的一个岛屿，与拿骚有大桥相连。我们直接略过拿骚前往天堂岛。天堂岛上的Atlantis是我见过最大的海滨度假村。它有五个主要的宾馆大楼，底部全面连通，集购物，会议，博彩，水族馆于一体，室外有高大上的水上乐园，数不清的游泳池，一个海湾和三个海滩。水族馆直接与大海相通，还可以浮潜观鱼。迷人的沙滩迷人的沙滩超级豪华的水族馆这里是我见过最大最好的海洋生物展示中心。它有两层的室内观赏区，室内与室外海湾相通，海湾与大海相连。整个度假村包括水上乐园到处是不同动物的水池。超级豪华的水族馆这里是我见过最大最好的海洋生物展示中心。它有两层的室内观赏区，室内与室外海湾相通，海湾与大海相连。整个度假村包括水上乐园到处是不同动物的水池。
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+赌场巴哈马国民是禁止涉赌的。赌场巴哈马国民是禁止涉赌的。惊险的水上乐园这里有几个速降滑道，掉进去就兹哇乱叫。“过山车“滑道里是用水把你射到下一个高点。小小的地方快速飘流（Rapid River）一圈就要十五分钟。惊险的水上乐园这里有几个速降滑道，掉进去就兹哇乱叫。“过山车“滑道里是用水把你射到下一个高点。小小的地方快速飘流（Rapid River）一圈就要十五分钟。
+    
+    new Vue({
+        el: '#video1',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+
+    
+    new Vue({
+        el: '#video2',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+要是够胆，可以尝试一下八十度近乎自由落体的感觉。这里整天都是不同人的尖叫声。滑下去就会穿过一个管道，外面就是鲨鱼。如果时间富余，Atlantis的周边也很精彩。如果时间富余，Atlantis的周边也很精彩。在这里逛一天是不够的，还没找着地方时间就没了。两天比较紧张，大概能玩遍各项活动,  要用好多防晒霜哦! 三天比较合适，可能碰上绚丽的日出日落。沙滩照相最好的时机是中午阳光最强的时候。Freeport海上浮潜有幸实现了这个项目。如果风大，经常会被取消。以下均为录像截图。为了防止相机起雾或者进水，GoPro是在出行前在壁炉边封闭，一路不打开。此次GoPro表现不错。Freeport海上浮潜有幸实现了这个项目。如果风大，经常会被取消。以下均为录像截图。为了防止相机起雾或者进水，GoPro是在出行前在壁炉边封闭，一路不打开。此次GoPro表现不错。
+    
+    new Vue({
+        el: '#video3',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+金石海滩(Gold Rock Beach)这里是我向往了好多年的海滩, 沙子像面粉一样, 海水很浅很浅, 一直可以走到海里很远很远。这里是电影"加勒比海盗(Pirate of The Caribean)"的拍摄地。金石海滩(Gold Rock Beach)这里是我向往了好多年的海滩, 沙子像面粉一样, 海水很浅很浅, 一直可以走到海里很远很远。这里是电影"加勒比海盗(Pirate of The Caribean)"的拍摄地。
+    
+    new Vue({
+        el: '#video4',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+在Freeport的码头里就一米多长的海鱼。再见, 巴哈马!此次巴哈马之旅，没有去粉岛，猪岛；没有见野生海豚，鲨鱼；没有见大群的火烈鸟。留着念想，期待下次旅行...此次巴哈马之旅，没有去粉岛，猪岛；没有见野生海豚，鲨鱼；没有见大群的火烈鸟。留着念想，期待下次旅行...

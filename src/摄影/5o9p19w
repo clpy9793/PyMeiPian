@@ -1,0 +1,25 @@
+摩旅拍！现场纪实摩旅拍！现场纪实最牛的一张拉…来一个最牛的
+    
+    new Vue({
+        el: '#video0',
+        components: {
+            'vVideo': window.vueVideo
+        },
+        methods: {
+            videoPlaying: function () {
+                var music = document.getElementById("bgsound");
+                if (music !== null && ! music.paused) {
+                    var icon = document.getElementById("music_icon");
+                    icon.setAttribute("play","on");
+                    music.pause();
+                }
+            }
+        },
+        beforeCreate: function () {
+            console.log(this)
+        },
+        created: function () {
+            console.log(this)
+        }
+    });
+来一个最牛的小都百七百弄青秀山乔港德保金滩金滩金滩李宁体育园昆仑关岘港粉红大教堂巴拿山巴拿山巴拿山巴拿山巴拿山巴拿山芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄芽庄美奈红沙漠美奈红沙漠美奈红沙漠美奈红沙漠美奈白沙漠美奈白沙漠美奈渔村美奈渔村美奈渔村美奈仙女溪百年大教堂百年大教堂凭祥口岸色达色达色达之颠色达色达色达县成都宽窄巷子友谊关街拍街拍华星德保德保保育院60大庆梅里雪山尼泊尔博卡拉尼泊尔杜巴广场稻城亚丁东达山尼泊尔杜巴广场北海斜阳岛丽江布达拉宫广场青藏线第一镇拉萨羊湖布达拉宫北京天坛公园北京天坛公园三亚南山梅里雪山华星泸沽湖四川云南交界处陕西太白县扬美古镇大理洱海大明山顶青秀山桂平西山香港星光大道青海湖纳木错金花茶公园泸沽湖德保巴拿山感谢大家的关注和赞赏！后期还会有更多的一字马！希望大家喜欢！第二集已出一半了……发扬一贯作风！换背景不换动作！感谢大家的关注和赞赏！后期还会有更多的一字马！希望大家喜欢！第二集已出一半了……发扬一贯作风！换背景不换动作！
