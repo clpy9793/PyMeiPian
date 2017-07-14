@@ -109,7 +109,16 @@ async def save_to_file(article_id, category_name, title, content):
     async with aiofiles.open(path, 'wb', encoding='utf8') as f:
         await f.write(content.encode('utf8'))
 
+async def easy_post():
+    async with aiohttp.ClientSession() as session:
+        res = await session.post('http://www.baidu.com')
 
+def example():
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(easy_post())
+    loop.close()
+
+    
 def main():
     loop = asyncio.get_event_loop()
     tasks = [start_category(i) for i in category_dict.keys()]
